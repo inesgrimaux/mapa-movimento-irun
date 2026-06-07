@@ -31,6 +31,12 @@ Abrir: http://localhost:8080
 
 Repositório: https://github.com/inesgrimaux/mapa-movimento-irun
 
+### Imagem OG (WhatsApp, Facebook, LinkedIn, X)
+
+- Ficheiro: `assets/og-mapa-bahia.png` (1200×630)
+- Regenerar: `python scripts/generate_og.py`
+- Ao publicar em `casadecastroalves.com.br/territorios/`, actualizar URLs em `index.html` e `data/mapa.json` (`siteBase`, `ogImage`, `canonical`)
+
 ## Nota — pasta antiga
 
 Se ainda existir `ATLAS MOVIMENTO IRUN/` ao lado desta pasta, feche o Cursor e execute `../DOCUMENTACAO/remover-pasta-atlas.ps1` para apagar a cópia antiga.
