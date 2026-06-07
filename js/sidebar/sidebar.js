@@ -1,6 +1,6 @@
 import { state, countRedeAtiva, toggleFilter } from "../core/state.js";
-import { goBahia, goTerritorio, goEntity } from "../core/router.js";
-import { openSheetForTerritory } from "../shell.js";
+import { goBahia, goTerritorio, goEntity, parseRoute } from "../core/router.js";
+import { openSheetForTerritory, setDesktopCollapsed, isMobile, closeSheet } from "../shell.js";
 import { renderSlideshow, bindSlideshows } from "./slideshow.js";
 
 const FILTER_GROUPS = [
@@ -32,6 +32,13 @@ function esc(s) {
   const d = document.createElement("div");
   d.textContent = s ?? "";
   return d.innerHTML;
+}
+
+function entityListLabel(e) {
+  const name = e.meta?.nome || e.id;
+  if (e.tipo === "municipio") return name;
+  const mun = e.meta?.municipio;
+  return mun ? `${name} · ${mun}` : name;
 }
 
 function tiById(id) {
@@ -85,7 +92,7 @@ function renderRedeTiPager(tiId) {
       <button type="button" class="nav-pager-btn" data-nav="rede-prev" data-ti="${prev.territorioId}" data-entity="${prev.id}">
         <span class="nav-arrow">←</span><span class="nav-label">${esc(prev.meta?.nome || prev.id)}</span>
       </button>
-      <span class="nav-rede-pos">REDE · ${list.length} fichas</span>
+      <button type="button" class="nav-rede-pos" data-nav="rede-list" title="Ver REDE neste território">REDE · ${list.length} fichas</button>
       <button type="button" class="nav-pager-btn" data-nav="rede-next" data-ti="${next.territorioId}" data-entity="${next.id}">
         <span class="nav-label">${esc(next.meta?.nome || next.id)}</span><span class="nav-arrow">→</span>
       </button>
@@ -103,11 +110,26 @@ function renderRedePager(entityId) {
       <button type="button" class="nav-pager-btn" data-nav="rede-prev" data-ti="${prev.territorioId}" data-entity="${prev.id}">
         <span class="nav-arrow">←</span><span class="nav-label">${esc(prev.meta?.nome || prev.id)}</span>
       </button>
-      <span class="nav-rede-pos">REDE ${i + 1}/${list.length}</span>
+      <button type="button" class="nav-rede-pos" data-nav="rede-list" title="Ver lista REDE">REDE ${i + 1}/${list.length}</button>
       <button type="button" class="nav-pager-btn" data-nav="rede-next" data-ti="${next.territorioId}" data-entity="${next.id}">
         <span class="nav-label">${esc(next.meta?.nome || next.id)}</span><span class="nav-arrow">→</span>
       </button>
     </nav>`;
+}
+
+function renderSobreHtml(m) {
+  const parts = [];
+  if (m?.sobreHeading) parts.push(`<p class="lead sobre-heading">${esc(m.sobreHeading)}</p>`);
+  (m?.sobre || []).forEach((p) => parts.push(`<p class="lead">${esc(p)}</p>`));
+  if (m?.sobreSecao) {
+    parts.push(`<p class="section-title">${esc(m.sobreSecao.titulo)}</p>`);
+    parts.push(`<p class="lead">${esc(m.sobreSecao.texto)}</p>`);
+  }
+  if (m?.sobreCursos) {
+    parts.push(`<p class="lead">${esc(m.sobreCursos.intro)}</p>`);
+    parts.push(`<p class="ver-mais"><a href="${esc(m.sobreCursos.href)}" target="_blank" rel="noopener">${esc(m.sobreCursos.label)} →</a></p>`);
+  }
+  return parts.join("");
 }
 
 function accordion(id, title, bodyHtml, open = false, cls = "") {
@@ -174,7 +196,7 @@ function renderEntityCards(entidades, tiId) {
         (e) => `
       <li class="entity-card" data-ti="${tiId}" data-entity="${e.id}" tabindex="0" role="button">
         <span class="entity-badge">REDE</span>
-        <span class="entity-name">${esc(e.meta?.nome || e.id)}</span>
+        <span class="entity-name">${esc(entityListLabel(e))}</span>
         <span class="entity-arrow">→</span>
       </li>`
       )
@@ -243,14 +265,14 @@ function renderBahia() {
   const rede = countRedeAtiva();
   const meta = m?.redeMeta || 27;
   const entidadesRede = redeOrdered();
-  const sobreHtml = (m?.sobre || []).map((p) => `<p class="lead">${esc(p)}</p>`).join("");
+  const sobreHtml = renderSobreHtml(m);
 
   const redeList = entidadesRede.length
     ? entidadesRede.map((e) => {
         const ti = tiById(e.territorioId);
         return `<li class="entity-card" data-ti="${e.territorioId}" data-entity="${e.id}" tabindex="0" role="button">
           <span class="entity-badge">TI ${ti?.cod || "—"}</span>
-          <span class="entity-name">${esc(e.meta?.nome || e.id)}</span>
+          <span class="entity-name">${esc(entityListLabel(e))}</span>
           <span class="entity-arrow">→</span>
         </li>`;
       }).join("")
@@ -401,9 +423,46 @@ function bindSidebarEvents(el, route) {
       else if (nav === "ti") goTerritorio(btn.dataset.ti);
       else if (nav === "ti-prev" || nav === "ti-next") goTerritorio(btn.dataset.ti);
       else if (nav === "rede-prev" || nav === "rede-next") goEntity(btn.dataset.ti, btn.dataset.entity);
+      else if (nav === "rede-list") {
+        openRedePanel();
+        return;
+      }
       openSheetForTerritory();
     });
   });
+
+  el.querySelectorAll('a[target="_blank"]').forEach((link) => {
+    link.addEventListener("click", () => {
+      if (isMobile()) closeSheet();
+    });
+  });
+}
+
+export function expandAccordion(id) {
+  const el = document.getElementById("sidebar-content");
+  const acc = el?.querySelector(`.accordion[data-acc="${id}"]`);
+  if (!acc) return;
+
+  el.querySelectorAll(":scope > .accordion.open").forEach((a) => {
+    if (a !== acc) {
+      a.classList.remove("open");
+      a.querySelector(".accordion-trigger")?.setAttribute("aria-expanded", "false");
+    }
+  });
+
+  acc.classList.add("open");
+  acc.querySelector(".accordion-trigger")?.setAttribute("aria-expanded", "true");
+  acc.querySelector(".accordion-trigger")?.scrollIntoView({ behavior: "smooth", block: "nearest" });
+}
+
+export function openRedePanel() {
+  if (isMobile()) openSheetForTerritory();
+  else setDesktopCollapsed(false);
+
+  const route = parseRoute();
+  if (route.view !== "bahia") goBahia();
+
+  setTimeout(() => expandAccordion("rede"), 0);
 }
 
 export function initSidebarKeyboard() {

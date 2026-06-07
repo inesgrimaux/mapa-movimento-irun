@@ -32,6 +32,10 @@ export function initShell(onTerritoryOpen) {
     openSheet("mid");
   });
 
+  document.getElementById("btn-show-map")?.addEventListener("click", () => {
+    closeSheet();
+  });
+
   initSheetDrag();
 
   window.addEventListener("resize", () => {
@@ -42,9 +46,17 @@ export function initShell(onTerritoryOpen) {
       document.body.classList.remove("sidebar-collapsed");
       applySheetHeight(SNAP.closed);
     }
+    updateShowMapButton();
   });
 
   applyDesktopLayout();
+  updateShowMapButton();
+}
+
+function updateShowMapButton() {
+  const btn = document.getElementById("btn-show-map");
+  if (!btn) return;
+  btn.hidden = !(isMobile() && sheetLevel !== "closed");
 }
 
 function applyDesktopLayout() {
@@ -78,6 +90,7 @@ export function openSheet(level = "mid") {
   applySheetLevel(level);
   state.sidebarOpen = true;
   notify();
+  updateShowMapButton();
 }
 
 export function closeSheet(silent = false) {
@@ -91,6 +104,7 @@ export function closeSheet(silent = false) {
   document.getElementById("sheet-peek")?.classList.remove("hidden");
   state.sidebarOpen = false;
   if (!silent) notify();
+  updateShowMapButton();
 }
 
 export function toggleSheet(level) {

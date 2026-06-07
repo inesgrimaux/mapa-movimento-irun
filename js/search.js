@@ -237,7 +237,7 @@ function renderResults(results) {
   if (!el) return;
 
   if (!results.length) {
-    el.innerHTML = `<p class="search-empty">Nenhum resultado. Tente <strong>rendeiras</strong>, <strong>samba</strong>, <strong>Caxuté</strong> ou <strong>26</strong> — toleramos pequenos erros de digitação.</p>`;
+    el.innerHTML = "";
     return;
   }
 

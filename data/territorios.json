@@ -26,7 +26,7 @@
     { "id": "ti-23", "cod": "23", "nome": "Bacia do Rio Corrente", "redeAtiva": false },
     { "id": "ti-24", "cod": "24", "nome": "Itaparica", "redeAtiva": false },
     { "id": "ti-25", "cod": "25", "nome": "Piemonte Norte do Itapicuru", "redeAtiva": false },
-    { "id": "ti-26", "cod": "26", "nome": "Metropolitano de Salvador", "redeAtiva": false },
+    { "id": "ti-26", "cod": "26", "nome": "RMS — Região Metropolitana de Salvador", "redeAtiva": false },
     { "id": "ti-27", "cod": "27", "nome": "Costa do Descobrimento", "redeAtiva": false }
   ]
 }

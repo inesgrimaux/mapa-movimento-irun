@@ -5,7 +5,7 @@ import {
   loadRedeLayers, loadPontos, loadRoteiros, loadEntityMarkers, updateEntityMarkerSelection,
   focusEntity, refreshOverlayVisibility,
 } from "./map/map.js";
-import { renderSidebar, initSidebarKeyboard } from "./sidebar/sidebar.js";
+import { renderSidebar, initSidebarKeyboard, openRedePanel } from "./sidebar/sidebar.js";
 import { initPhotoLightbox } from "./sidebar/slideshow.js";
 import { initShare } from "./share.js";
 import { initTheme } from "./theme.js";
@@ -13,11 +13,12 @@ import { initShell, openSheetForTerritory } from "./shell.js";
 import { initSearch } from "./search.js";
 
 async function loadData() {
-  const [mapa, territoriosData, dataManifest, geoManifest] = await Promise.all([
+  const [mapa, territoriosData, dataManifest, geoManifest, territoriosGeo] = await Promise.all([
     fetch("data/mapa.json").then((r) => r.json()),
     fetch("data/territorios.json").then((r) => r.json()),
     fetch("data/manifest.json").then((r) => r.json()),
     fetch("geo/manifest.json").then((r) => r.json()),
+    fetch("geo/base/territorios.geojson").then((r) => r.json()),
   ]);
 
   state.mapa = mapa;
@@ -49,11 +50,11 @@ async function loadData() {
   document.title = `${mapa.title} — ${mapa.subtitle}`;
   updateRedeBadge();
 
-  return { dataManifest, pontosData };
+  return { dataManifest, pontosData, territoriosGeo };
 }
 
 function updateRedeBadge() {
-  const el = document.getElementById("rede-badge");
+  const el = document.getElementById("btn-rede-badge");
   if (el) el.textContent = `REDE ${countRedeAtiva()}/${state.mapa?.redeMeta || 27}`;
 }
 
@@ -81,10 +82,11 @@ function handleRoute(route) {
 }
 
 async function main() {
-  const { dataManifest, pontosData } = await loadData();
+  const { dataManifest, pontosData, territoriosGeo } = await loadData();
 
   initShell();
   initPhotoLightbox();
+  initTheme();
 
   await initMap("map", state.territorios, (tiId) => {
     goTerritorio(tiId);
@@ -92,24 +94,23 @@ async function main() {
   }, (tiId, entityId) => {
     goEntity(tiId, entityId);
     openSheetForTerritory();
-  });
+  }, territoriosGeo);
 
-  await loadRedeLayers(state.geoManifest);
-  await loadPontos(dataManifest.pontos || [], pontosData);
-  await loadRoteiros(dataManifest.roteiros || []);
+  await Promise.all([
+    loadRedeLayers(state.geoManifest),
+    loadPontos(dataManifest.pontos || [], pontosData),
+    loadRoteiros(dataManifest.roteiros || []),
+  ]);
   loadEntityMarkers(state.entidades);
 
   initSearch();
-
   initSidebarKeyboard();
-  initTheme();
   initMapModes();
-
+  initRedeBadge();
   initShare();
-
   initRouter(handleRoute);
 
-  requestAnimationFrame(() => getMap()?.invalidateSize());
+  getMap()?.invalidateSize();
 
   subscribe(() => {
     refreshOverlayVisibility();
@@ -126,6 +127,10 @@ function initMapModes() {
       applyBaseLayer();
     });
   });
+}
+
+function initRedeBadge() {
+  document.getElementById("btn-rede-badge")?.addEventListener("click", openRedePanel);
 }
 
 main().catch((err) => {

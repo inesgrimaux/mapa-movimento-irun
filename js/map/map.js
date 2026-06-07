@@ -1,5 +1,8 @@
 import { state } from "../core/state.js";
 import { richPopupHtml, initRichPopup, hasRichPopup } from "./popup-rich.js";
+import { closeSheet, isMobile } from "../shell.js";
+
+const PIN_PROX_DEG = 0.004;
 
 const TILES = {
   minimalLight: {
@@ -49,33 +52,37 @@ let layerById = {};
 let redeLayerByEntity = {};
 let onTiClick = null;
 let onEntityClick = null;
+let tiCanvas = null;
 
 function polygonStyles() {
   const dark = state.theme === "dark";
+  const satellite = state.mapBaseMode === "satellite";
+  const defaultBorder = dark || satellite ? "rgba(255,255,255,0.45)" : "rgba(51,51,51,0.75)";
+
   return {
     default: {
-      color: dark ? "#555555" : "#cccccc",
-      weight: 1.2,
-      fillColor: dark ? "#2a2a2a" : "#f0f0f0",
-      fillOpacity: dark ? 0.85 : 0.7,
+      color: defaultBorder,
+      weight: 1,
+      fillColor: "transparent",
+      fillOpacity: 0,
     },
     hover: {
       color: "#f5c518",
-      weight: 2,
-      fillColor: dark ? "#3d3520" : "#f5f0d0",
-      fillOpacity: 0.55,
+      weight: 1.5,
+      fillColor: "transparent",
+      fillOpacity: 0,
     },
     active: (redeAtiva) => ({
-      color: redeAtiva ? "#f5c518" : dark ? "#f0f0f0" : "#111111",
-      weight: redeAtiva ? 2.5 : 2,
-      fillColor: "#f5c518",
-      fillOpacity: 0.22,
+      color: redeAtiva ? "#f5c518" : dark || satellite ? "#ffffff" : "#222222",
+      weight: redeAtiva ? 2 : 1.6,
+      fillColor: "transparent",
+      fillOpacity: 0,
     }),
-    rede: (dark) => ({
+    rede: () => ({
       color: "#f5c518",
-      weight: 1.8,
-      fillColor: dark ? "#2a2a2a" : "#f0f0f0",
-      fillOpacity: dark ? 0.85 : 0.7,
+      weight: 1.5,
+      fillColor: "transparent",
+      fillOpacity: 0,
     }),
   };
 }
@@ -83,11 +90,11 @@ function polygonStyles() {
 function styleForLayer(id, rede) {
   const s = polygonStyles();
   if (state.selectedTiId === id) return s.active(rede);
-  if (rede) return s.rede(state.theme === "dark");
+  if (rede) return s.rede();
   return s.default;
 }
 
-export function initMap(containerId, territorios, clickHandler, entityClickHandler) {
+export function initMap(containerId, territorios, clickHandler, entityClickHandler, prefetchedGeo = null) {
   onTiClick = clickHandler;
   onEntityClick = entityClickHandler;
 
@@ -95,9 +102,11 @@ export function initMap(containerId, territorios, clickHandler, entityClickHandl
     zoomControl: false,
     minZoom: 6,
     maxBounds: [[-20, -50], [-7, -35]],
+    preferCanvas: true,
   }).setView(BAHIA_CENTER, 7);
 
   L.control.zoom({ position: "bottomright" }).addTo(map);
+  tiCanvas = L.canvas({ padding: 0.5 });
 
   applyBaseLayer();
 
@@ -115,17 +124,19 @@ export function initMap(containerId, territorios, clickHandler, entityClickHandl
 
   document.getElementById("map")?.setAttribute("tabindex", "0");
 
-  return loadTerritorios(territorios);
+  return loadTerritorios(territorios, prefetchedGeo);
 }
 
-async function loadTerritorios(territorios) {
-  const res = await fetch("geo/base/territorios.geojson");
-  const geo = await res.json();
+async function loadTerritorios(territorios, prefetchedGeo = null) {
+  const geo =
+    prefetchedGeo ||
+    (await fetch("geo/base/territorios.geojson").then((res) => res.json()));
 
   const redeMap = Object.fromEntries(territorios.map((t) => [t.id, t.redeAtiva]));
   const hover = () => polygonStyles().hover;
 
   tiLayer = L.geoJSON(geo, {
+    renderer: tiCanvas,
     style: (feature) => styleForLayer(feature.properties.id, redeMap[feature.properties.id]),
     onEachFeature: (feature, layer) => {
       const { id, cod, nome } = feature.properties;
@@ -150,13 +161,16 @@ async function loadTerritorios(territorios) {
     },
   }).addTo(map);
 
-  map.fitBounds(BAHIA_BOUNDS, { padding: [20, 20] });
+  map.fitBounds(BAHIA_BOUNDS, { padding: [20, 20], animate: false });
 
   map.on("popupopen", (e) => {
     initRichPopup(e.popup.getElement());
   });
 
   map.getContainer().addEventListener("click", (ev) => {
+    const ext = ev.target.closest('a[target="_blank"]');
+    if (ext?.href && isMobile()) closeSheet();
+
     const link = ev.target.closest(".popup-link[data-ti]");
     if (!link || link.tagName === "A") return;
     ev.preventDefault();
@@ -170,7 +184,6 @@ async function loadTerritorios(territorios) {
 
 function resolveTileKey() {
   if (state.mapBaseMode === "satellite") return "satellite";
-  if (state.mapBaseMode === "normal") return "normal";
   return state.theme === "dark" ? "minimalDark" : "minimalLight";
 }
 
@@ -252,12 +265,11 @@ function entityIcon(active = false) {
 }
 
 function redeStyle() {
-  const dark = state.theme === "dark";
   return {
     color: "#f5c518",
-    weight: 2.2,
-    fillColor: dark ? "#3d3520" : "#f5f0d0",
-    fillOpacity: 0.35,
+    weight: 1.5,
+    fillColor: "transparent",
+    fillOpacity: 0,
     dashArray: "6 4",
   };
 }
@@ -329,6 +341,47 @@ function pinPopupOptions(p) {
     : { maxWidth: 260, className: "irun-popup" };
 }
 
+function pinRichness(p) {
+  let score = 0;
+  if (p.links?.length) score += 10;
+  if (p.resumo) score += 5;
+  if (hasRichPopup(p)) score += 8;
+  if (p.fotos?.length) score += 3;
+  return score;
+}
+
+function coordsNear(a, b, threshold = PIN_PROX_DEG) {
+  return Math.abs(a[0] - b[0]) <= threshold && Math.abs(a[1] - b[1]) <= threshold;
+}
+
+function dedupePins(rawPins) {
+  const kept = [];
+  for (const pin of rawPins) {
+    if (!pin.entidadeId) {
+      kept.push(pin);
+      continue;
+    }
+    const dupIdx = kept.findIndex(
+      (k) => k.entidadeId === pin.entidadeId && coordsNear(k.coords, pin.coords)
+    );
+    if (dupIdx === -1) {
+      kept.push(pin);
+    } else if (pinRichness(pin) > pinRichness(kept[dupIdx])) {
+      kept[dupIdx] = pin;
+    } else if (
+      pinRichness(pin) === pinRichness(kept[dupIdx]) &&
+      (pin.nome?.length || 0) > (kept[dupIdx].nome?.length || 0)
+    ) {
+      kept[dupIdx] = pin;
+    }
+  }
+  return kept;
+}
+
+function entityHasPin(entityId) {
+  return state.pontos.some((p) => p.entidadeId === entityId);
+}
+
 export async function loadPontos(pontosFiles, prefetched = null) {
   if (!map) return;
   if (pinsLayerGroup) map.removeLayer(pinsLayerGroup);
@@ -342,17 +395,21 @@ export async function loadPontos(pontosFiles, prefetched = null) {
       pontosFiles.map((file) => fetch(`data/pontos/${file}.json`).then((r) => r.json()))
     ));
 
+  const rawPins = [];
   for (const data of batches) {
     for (const p of data.pontos || []) {
-      const pin = { ...p, territorioId: data.territorioId };
-      state.pontos.push(pin);
-      const marker = L.marker(p.coords, { icon: pinIcon() });
-      marker._irunCats = p.categorias || ["quilombos"];
-      marker._irunId = p.id;
-      marker.bindPopup(pinPopupHtml(p, data.territorioId), pinPopupOptions(p));
-      marker.addTo(pinsLayerGroup);
-      markerByPinId[p.id] = marker;
+      rawPins.push({ ...p, territorioId: data.territorioId });
     }
+  }
+
+  for (const pin of dedupePins(rawPins)) {
+    state.pontos.push(pin);
+    const marker = L.marker(pin.coords, { icon: pinIcon() });
+    marker._irunCats = pin.categorias || ["quilombos"];
+    marker._irunId = pin.id;
+    marker.bindPopup(pinPopupHtml(pin, pin.territorioId), pinPopupOptions(pin));
+    marker.addTo(pinsLayerGroup);
+    markerByPinId[pin.id] = marker;
   }
 
   refreshOverlayVisibility();
@@ -412,6 +469,7 @@ export function loadEntityMarkers(entidades) {
   for (const e of entidades) {
     const [lat, lng] = e.meta?.coords || [];
     if (!lat || !lng) continue;
+    if (entityHasPin(e.id)) continue;
     const active = state.selectedEntityId === e.id;
     const marker = L.marker([lat, lng], { icon: entityIcon(active) });
     marker._irunCats = ["quilombos"];

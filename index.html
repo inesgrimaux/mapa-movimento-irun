@@ -86,7 +86,6 @@
         <div class="map-mode-group" role="group" aria-label="Controles do mapa">
           <button type="button" id="btn-theme" class="map-mode map-mode-icon" aria-label="Alternar modo claro ou escuro"></button>
           <button type="button" class="map-mode active" data-mode="minimal">Mapa</button>
-          <button type="button" class="map-mode" data-mode="normal">Normal</button>
           <button type="button" class="map-mode" data-mode="satellite">Satélite</button>
         </div>
         <button type="button" id="btn-share" class="btn-control btn-share" title="Compartilhar">
@@ -95,7 +94,14 @@
         </button>
       </div>
 
-      <div id="rede-badge" class="rede-badge" aria-live="polite">REDE 0/27</div>
+      <button type="button" id="btn-rede-badge" class="rede-badge" aria-label="Abrir REDE Movimento Irun">REDE 0/27</button>
+
+      <button type="button" id="btn-show-map" class="btn-show-map" aria-label="Ver mapa" hidden>
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+          <polygon points="1 6 1 22 8 18 16 22 23 18 23 2 16 6 8 2 1 6"/>
+          <line x1="8" y1="2" x2="8" y2="18"/><line x1="16" y1="6" x2="16" y2="22"/>
+        </svg>
+      </button>
 
       <button type="button" id="sheet-peek" class="sheet-peek" aria-label="Expandir painel de conteúdo">
         <span class="handle-bar"></span>

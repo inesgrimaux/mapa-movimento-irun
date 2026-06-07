@@ -264,10 +264,11 @@ html, body {
   font-weight: 500;
   letter-spacing: 0.04em;
   cursor: pointer;
-  color: var(--text-muted);
+  color: var(--text);
   transition: var(--transition);
   min-height: 44px;
 }
+.map-mode:not(.active) { opacity: 0.82; }
 .map-mode:not(:last-child) { border-right: 1px solid var(--border); }
 .map-mode.active { background: var(--inverse-bg); color: var(--inverse-text); }
 .map-mode:hover:not(.active) { background: var(--bg-muted); }
@@ -292,9 +293,19 @@ html, body {
   font-size: 0.7rem;
   font-weight: 600;
   letter-spacing: 0.06em;
+  color: var(--text);
   cursor: pointer;
   box-shadow: var(--shadow);
   transition: var(--transition);
+}
+.btn-search-map { display: inline-flex; align-items: center; gap: 8px; }
+.map-controls .map-mode-group,
+.map-controls .btn-control {
+  box-shadow: 0 2px 16px rgba(0, 0, 0, 0.18);
+}
+[data-theme="dark"] .map-controls .map-mode-group,
+[data-theme="dark"] .map-controls .btn-control {
+  box-shadow: 0 2px 20px rgba(0, 0, 0, 0.55);
 }
 .btn-control:hover { border-color: var(--yellow); }
 .btn-control:focus-visible { outline: 2px solid var(--yellow); outline-offset: 2px; }
@@ -309,13 +320,43 @@ html, body {
   z-index: 800;
   background: var(--inverse-bg);
   color: var(--inverse-text);
+  font-family: var(--font);
   font-size: 0.65rem;
   font-weight: 600;
   letter-spacing: 0.1em;
   padding: 8px 14px;
+  border: 1px solid transparent;
   border-radius: 20px;
-  pointer-events: none;
+  cursor: pointer;
+  box-shadow: 0 2px 14px rgba(0, 0, 0, 0.25);
+  transition: var(--transition);
 }
+.rede-badge:hover { border-color: var(--yellow); transform: translateY(-1px); }
+.rede-badge:focus-visible { outline: 2px solid var(--yellow); outline-offset: 2px; }
+
+.btn-show-map {
+  display: none;
+  position: absolute;
+  bottom: 16px;
+  right: 16px;
+  z-index: 810;
+  width: 48px;
+  height: 48px;
+  align-items: center;
+  justify-content: center;
+  background: var(--inverse-bg);
+  color: var(--inverse-text);
+  border: 1px solid transparent;
+  border-radius: 50%;
+  cursor: pointer;
+  box-shadow: 0 2px 16px rgba(0, 0, 0, 0.28);
+  transition: var(--transition);
+}
+.btn-show-map:hover { border-color: var(--yellow); transform: translateY(-1px); }
+.btn-show-map:focus-visible { outline: 2px solid var(--yellow); outline-offset: 2px; }
+.btn-show-map[hidden] { display: none !important; }
+
+.sobre-heading { font-weight: 500; color: var(--text); }
 
 /* Peek bar — só handle, sem texto */
 .sheet-peek {
@@ -517,12 +558,25 @@ html, body {
 }
 .nav-arrow { flex-shrink: 0; font-size: 0.85rem; }
 .nav-rede-pos {
+  font: inherit;
   font-size: 0.68rem;
   font-weight: 700;
   letter-spacing: 0.06em;
   color: var(--text-faint);
   text-align: center;
   white-space: nowrap;
+  background: none;
+  border: none;
+  padding: 4px 6px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: color 0.15s, background 0.15s;
+}
+.nav-rede-pos:hover,
+.nav-rede-pos:focus-visible {
+  color: var(--text);
+  background: var(--bg-muted);
+  outline: none;
 }
 
 .ver-mais { margin-top: 12px; }
@@ -720,23 +774,23 @@ html, body {
 .irun-pin, .irun-entity-pin { background: transparent !important; border: none !important; }
 .irun-pin-dot {
   display: block;
-  width: 12px;
-  height: 12px;
+  width: 11px;
+  height: 11px;
   background: var(--yellow);
-  border: 2px solid #111;
+  border: none;
   border-radius: 50%;
-  box-shadow: 0 1px 4px rgba(0,0,0,0.3);
+  box-shadow: 0 1px 3px rgba(0,0,0,0.28);
 }
-.irun-pin-dot.active { width: 16px; height: 16px; }
+.irun-pin-dot.active { width: 14px; height: 14px; }
 .irun-entity-dot {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 22px;
-  height: 22px;
-  font-size: 22px;
+  width: 20px;
+  height: 20px;
+  font-size: 20px;
   color: var(--yellow);
-  text-shadow: 0 0 4px #111, 0 0 2px #111;
+  text-shadow: 0 1px 2px rgba(0,0,0,0.35);
   line-height: 1;
 }
 .irun-entity-dot.active { color: #fff; font-size: 26px; }
@@ -1040,6 +1094,12 @@ html, body {
   .btn-search-map { display: none; }
 
   .rede-badge { bottom: 36px; left: 12px; }
+
+  .btn-show-map {
+    display: flex;
+    bottom: 36px;
+    right: 12px;
+  }
 
   .sheet-peek { display: block; }
   .sheet-peek.hidden { display: none !important; }
