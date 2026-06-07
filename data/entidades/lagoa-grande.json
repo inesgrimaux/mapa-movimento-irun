@@ -1,0 +1,144 @@
+{
+  "id": "lagoa-grande",
+  "version": "1.0.0",
+  "territorioId": "ti-19",
+  "tipo": "quilombo",
+  "rede": true,
+  "geoLayerId": "lagoa-grande",
+  "meta": {
+    "nome": "Quilombo Lagoa Grande",
+    "coords": [-12.134794, -38.9974336],
+    "municipio": "Feira de Santana",
+    "uf": "BA",
+    "fonte": "AQCOMAQ — Movimento Irun / Design de Território",
+    "responsavel": "Associação Quilombola Comunitária de Maria Quitéria (AQCOMAQ)",
+    "licenca": "CC BY-NC-SA 4.0",
+    "updatedAt": "2025-06-06"
+  },
+  "sidebar": {
+    "apresentacao": "O Território Quilombola de Lagoa Grande, em Feira de Santana, é representado legalmente pela AQCOMAQ — Associação Quilombola Comunitária de Maria Quitéria. A comunidade articula memória, cultura, produção comunitária e formação da juventude quilombola, com destaque para o Novembro Negro (desde 1973) e o Coletivo da Juventude, fundado em 2023.",
+    "identidade": [
+      {
+        "id": "historia",
+        "titulo": "História e memória",
+        "conteudo": "Lagoa Grande é território de resistência quilombola com tradição de celebração do Novembro Negro desde 1973. O evento reúne a comunidade em torno de histórias locais de resistência, saberes ancestrais e demandas coletivas — chegando à 11ª edição em 2023. Ações como \"Recontando o 2 de Julho\" (2024) reforçam a memória afro-brasileira no território."
+      },
+      {
+        "id": "cultura",
+        "titulo": "Cultura",
+        "conteudo": "Samba de roda, festividades do Novembro Negro, rodas de conversa e registros com sambistas locais (2016) compõem o património cultural vivo. O Coletivo da Juventude promove pré-jornadas, mutirões e eventos itinerantes de escuta entre comunidades vizinhas, como Lagoa da Camisa."
+      },
+      {
+        "id": "meio-ambiente",
+        "titulo": "Meio ambiente",
+        "conteudo": "O território articula produção comunitária com quintais produtivos e práticas agroecológicas. A 1ª Pré-Jornada de Agroecologia da Juventude de Lagoa Grande (junho 2024) consolidou o diálogo entre juventude, terra e soberania alimentar."
+      },
+      {
+        "id": "patrimonio",
+        "titulo": "Património",
+        "conteudo": "Casas de farinha comunitárias, a Escola Municipal Quilombola Luiz Pereira dos Santos e o sede da AQCOMAQ são marcos do património material e simbólico do quilombo, mapeados na camada REDE participativa."
+      },
+      {
+        "id": "economia",
+        "titulo": "Economia",
+        "conteudo": "Produção de farinha, quintais produtivos e a Feira Quilombola da Lagoa movimentam o comércio local e a economia solidária. Sabores do Quilombo e produtos comunitários fortalecem renda e identidade territorial."
+      },
+      {
+        "id": "comunidade",
+        "titulo": "Comunidade",
+        "conteudo": "A AQCOMAQ articula famílias quilombolas, o Coletivo da Juventude (desde nov/2023) e parcerias com escolas públicas e privadas por meio de visitas guiadas ao território (2024)."
+      },
+      {
+        "id": "educacao",
+        "titulo": "Educação",
+        "conteudo": "A Escola Municipal Quilombola Luiz Pereira dos Santos e o Ponto de Cultura — Movimento Juventude são espaços de formação. Encontros de escuta, mutirões e pré-jornadas da juventude ampliam a educação popular no território."
+      },
+      {
+        "id": "mobilidade",
+        "titulo": "Mobilidade",
+        "conteudo": "O quilombo situa-se na zona rural de Feira de Santana, com acesso pela Estrada da Lagoa — R. Real, integrando-se ao Território de Identidade Portal do Sertão (TI 19)."
+      },
+      {
+        "id": "potencialidades",
+        "titulo": "Potencialidades",
+        "conteudo": "Turismo comunitário, visitas guiadas, feira quilombola, documentação audiovisual e articulação intergeracional (Coletivo da Juventude + Novembro Negro) são potências para visibilidade e autonomia do território."
+      },
+      {
+        "id": "futuro",
+        "titulo": "Visão de futuro",
+        "conteudo": "Consolidar a demarcação territorial, ampliar a formação da juventude quilombola e fortalecer a cadeia produtiva comunitária."
+      }
+    ],
+    "produtos": [
+      { "nome": "Farinha comunitária", "descricao": "Produção nas casas de farinha mapeadas no território." },
+      { "nome": "Sabores do Quilombo", "descricao": "Gastronomia e produtos da comunidade quilombola de Lagoa Grande." }
+    ],
+    "roteiros": [
+      { "titulo": "Visitas guiadas ao território", "descricao": "Roteiro educativo com escolas e grupos — registros de 2024." }
+    ],
+    "fotos": [
+      { "src": "assets/lagoa-grande/fotos/page_4_img_16_Image41.jpg", "legenda": "Comunidade quilombola de Lagoa Grande" },
+      { "src": "assets/lagoa-grande/fotos/page_5_img_21_Image45.jpg", "legenda": "Vida comunitária no território" },
+      { "src": "assets/lagoa-grande/fotos/page_6_img_26_Image51.jpg", "legenda": "Memória e resistência" },
+      { "src": "assets/lagoa-grande/fotos/page_8_img_34_Image59.jpg", "legenda": "Novembro Negro" },
+      { "src": "assets/lagoa-grande/fotos/page_8_img_35_Image60.jpg", "legenda": "Cultura viva" },
+      { "src": "assets/lagoa-grande/fotos/page_8_img_36_Image61.jpg", "legenda": "Festividades locais" },
+      { "src": "assets/lagoa-grande/fotos/page_13_img_53_Image78.jpg", "legenda": "Coletivo da Juventude" },
+      { "src": "assets/lagoa-grande/fotos/page_15_img_64_Image89.jpg", "legenda": "Pré-Jornada da Juventude — palco" },
+      { "src": "assets/lagoa-grande/fotos/page_16_img_68_Image93.jpg", "legenda": "Roda de conversa — Recontando o 2 de Julho" },
+      { "src": "assets/lagoa-grande/fotos/page_17_img_71_Image96.jpg", "legenda": "2 de Julho no território" },
+      { "src": "assets/lagoa-grande/fotos/page_17_img_72_Image97.jpg", "legenda": "Celebração comunitária" },
+      { "src": "assets/lagoa-grande/fotos/page_21_img_91_Image124.jpg", "legenda": "Visitas guiadas a escolas" },
+      { "src": "assets/lagoa-grande/fotos/page_28_img_110_Image163.jpg", "legenda": "Entrevista com sambistas locais (2016)" },
+      { "src": "assets/lagoa-grande/fotos/page_30_img_116_Image174.jpg", "legenda": "Encerramento — Pré-Jornada da Juventude" },
+      { "src": "assets/lagoa-grande/fotos/page_31_img_117_Image177.jpg", "legenda": "Juventude quilombola" },
+      { "src": "assets/lagoa-grande/fotos/page_32_img_121_Image183.jpg", "legenda": "Mutirão comunitário" },
+      { "src": "assets/lagoa-grande/fotos/page_33_img_123_Image187.jpg", "legenda": "Formação no território" },
+      { "src": "assets/lagoa-grande/fotos/page_39_img_140_Image220.jpg", "legenda": "Encontro de formação" },
+      { "src": "assets/lagoa-grande/fotos/page_39_img_141_Image221.jpg", "legenda": "Teia dos Povos" },
+      { "src": "assets/lagoa-grande/fotos/page_40_img_143_Image225.jpg", "legenda": "Articulação territorial" },
+      { "src": "assets/lagoa-grande/fotos/page_41_img_144_Image228.jpg", "legenda": "Rede de saberes" },
+      { "src": "assets/lagoa-grande/fotos/Encontro-de-formacao-na-Teia-dos-Povos-2.jpg", "legenda": "Encontro de formação na Teia dos Povos" }
+    ],
+    "videos": [
+      { "tipo": "youtube", "id": "Z_xr3JTQzyg", "titulo": "Documentário — Os Guardiões da Lagoa" },
+      { "tipo": "youtube", "id": "JJJUScrmlFs", "titulo": "Feira Quilombola da Lagoa movimenta comércio local" },
+      { "tipo": "youtube", "id": "c_mW3zFYE10", "titulo": "Quilombo da Lagoa — Feira de Santana" },
+      { "tipo": "drive", "href": "https://drive.google.com/file/d/1zlF_eS7z7dftqoFVYTOuxrqBWzjsVgKG/view", "titulo": "Minidocumentário — Itinerante de escuta aos jovens" }
+    ],
+    "portfolio": [
+      { "titulo": "Portfólio da Proponente (AQCOMAQ)", "href": "assets/lagoa-grande/pdf/Portifólio da Proponente upload.pdf", "tipo": "pdf" }
+    ],
+    "festas": [
+      { "nome": "Novembro Negro", "periodo": "Desde 1973", "descricao": "Evento anual de resistência e memória quilombola — 11ª edição em 2023." },
+      { "nome": "Recontando o 2 de Julho", "periodo": "Julho", "descricao": "Roda de conversa e celebração da independência da Bahia no território." },
+      { "nome": "Pré-Jornada da Juventude", "periodo": "Junho 2024", "descricao": "Primeiro evento do Coletivo da Juventude — escuta, mutirão e show comunitário." }
+    ],
+    "noticias": [
+      { "titulo": "Guardiões da terra e do território — CESE", "href": "https://cese.org.br/noticia/guardioes-da-terra-e-do-territorio-juventude-quilombola-na-bahia-se-mobiliza-na-luta-por-identidade-e-soberania-popular/" },
+      { "titulo": "Sabores do Quilombo — Consuelo Ponder", "href": "http://www.bvconsueloponde.ba.gov.br/2022/12/16/sabores_do_quilombo_da_comunidade_quilombola_de_lagoa_grande/" },
+      { "titulo": "Novembro Negro — Interioriza (Defensoria BA)", "href": "https://www.defensoria.ba.def.br/noticias/novembro-negro-quilombolas-apresentam-demandas-individuais-e-coletivas-na-3a-edicao-do-interioriza/" },
+      { "titulo": "Novembro Negro e demarcação — Teia dos Povos", "href": "https://teiadospovos.org/o-novembro-negro-e-a-demarcacao-do-quilombo-da-lagoa-grande/" },
+      { "titulo": "Pré-Jornada de Agroecologia da Juventude — Teia dos Povos", "href": "https://teiadospovos.org/1a-pre-jornada-de-agroecologia-da-juventude-de-lagoa-grande-acontecera-entre-os-dias-06-e-09-de-junho/" }
+    ],
+    "redes": [
+      { "rede": "Instagram", "handle": "@mov.lagoagrande", "href": "https://www.instagram.com/mov.lagoagrande/" },
+      { "rede": "Instagram", "handle": "@associacaoquilombola2003", "href": "https://www.instagram.com/associacaoquilombola2003/" }
+    ],
+    "links": [
+      { "titulo": "Google Maps — Território", "href": "https://www.google.com/maps/d/u/0/embed?mid=1ptFqMRSiLd7Y5gcNj3ID3QlRy2wFO5Y" }
+    ],
+    "contato": {
+      "organizacao": "AQCOMAQ — Associação Quilombola Comunitária de Maria Quitéria",
+      "gestores": [
+        "Tamille dos Santos Ferreira",
+        "Karen Cruz dos Santos e Santos",
+        "Paulo César Dias Santos",
+        "Ayrton Pereira Suzarte",
+        "Renilda Cruz dos Santos",
+        "João Eduardo dos Santos Ferreira"
+      ],
+      "maps": "https://www.google.com/maps/d/u/0/embed?mid=1ptFqMRSiLd7Y5gcNj3ID3QlRy2wFO5Y"
+    }
+  }
+}

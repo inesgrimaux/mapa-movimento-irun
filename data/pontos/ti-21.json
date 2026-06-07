@@ -1,0 +1,29 @@
+{
+  "territorioId": "ti-21",
+  "pontos": [
+    {
+      "id": "saubara",
+      "nome": "Saubara",
+      "coords": [-12.7411, -38.7672],
+      "categorias": ["municipios"],
+      "entidadeId": "saubara"
+    },
+    {
+      "id": "festa-das-rendeiras",
+      "nome": "Festa das Rendeiras",
+      "coords": [-12.7732, -38.7891606],
+      "categorias": ["projetos", "instituicoes"],
+      "resumo": "Associação das Rendeiras de Saubara · @rendeirassaubara",
+      "entidadeId": "saubara"
+    },
+    {
+      "id": "casa-das-rendeiras-e-trancadeiras",
+      "nome": "Casa das Rendeiras e Trançadeiras",
+      "coords": [-12.7391106, -38.7628271],
+      "categorias": ["instituicoes", "producao"],
+      "resumo": "Associação dos Artesãos de Saubara · Ponto de Cultura · renda de bilro e palha de Ouricuri",
+      "links": ["https://casadasrendeiras.org.br/loja/"],
+      "entidadeId": "saubara"
+    }
+  ]
+}

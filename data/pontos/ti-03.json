@@ -1,0 +1,162 @@
+{
+  "territorioId": "ti-03",
+  "pontos": [
+    {
+      "id": "mucuge",
+      "nome": "Mucugê",
+      "coords": [
+        -13.0088285,
+        -41.3711799
+      ],
+      "categorias": [
+        "municipios"
+      ]
+    },
+    {
+      "id": "museu-do-arquivo",
+      "nome": "Museu do Arquivo",
+      "coords": [
+        -13.0069219,
+        -41.3701689
+      ],
+      "categorias": [
+        "instituicoes"
+      ],
+      "resumo": "Exposição Fotográfica Mucugé"
+    },
+    {
+      "id": "guine",
+      "nome": "Guiné",
+      "coords": [
+        -12.77089,
+        -41.5395502
+      ],
+      "categorias": [
+        "municipios"
+      ]
+    },
+    {
+      "id": "guine-de-baixo",
+      "nome": "Guiné de Baixo",
+      "coords": [
+        -12.733333,
+        -41.533333
+      ],
+      "categorias": [
+        "municipios"
+      ]
+    },
+    {
+      "id": "escola-municipal-de-1-e-2-graus-eurico-belo",
+      "nome": "Escola Municipal de 1º e 2º Graus Eurico Belo",
+      "coords": [
+        -12.7704201,
+        -41.538647
+      ],
+      "categorias": [
+        "instituicoes"
+      ]
+    },
+    {
+      "id": "ponto-de-cultura-de-guine",
+      "nome": "Ponto de Cultura de Guiné",
+      "coords": [
+        -12.7702341,
+        -41.5383919
+      ],
+      "categorias": [
+        "instituicoes",
+        "municipios"
+      ]
+    },
+    {
+      "id": "hostel-recanto-da-vila",
+      "nome": "Hostel Recanto da Vila",
+      "coords": [
+        -12.7711227,
+        -41.5391224
+      ],
+      "categorias": [
+        "turismo",
+        "producao"
+      ]
+    },
+    {
+      "id": "povoado-quilombo-da-barriguda",
+      "nome": "Povoado Quilombo da Barriguda",
+      "coords": [
+        -12.708641,
+        -41.5733648
+      ],
+      "categorias": [
+        "quilombos",
+        "turismo"
+      ],
+      "links": [
+        "https://www.youtube.com/watch?v=Dy_jp8KOMPc",
+        "https://www.youtube.com/watch?v=bt1mTbBoJAE"
+      ],
+      "popup": {
+        "contexto": "Chapada Diamantina · Quilombo da Barriguda",
+        "slides": [
+          {
+            "titulo": "Quilombo da Barriguda",
+            "texto": "Povoado quilombola na região de Guiné, Chapada Diamantina. Vídeos do mapeamento participativo (Google My Maps).",
+            "links": [
+              { "titulo": "youtube.com/watch", "href": "https://www.youtube.com/watch?v=Dy_jp8KOMPc" }
+            ],
+            "video": {
+              "tipo": "youtube",
+              "id": "Dy_jp8KOMPc",
+              "legenda": "Quilombo da Barriguda — vídeo 1"
+            }
+          },
+          {
+            "titulo": "Memória quilombola na Chapada",
+            "video": {
+              "tipo": "youtube",
+              "id": "bt1mTbBoJAE",
+              "legenda": "Quilombo da Barriguda — vídeo 2"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "secretaria-de-educacao-mucuge",
+      "nome": "Secretaria de Educação Mucugê",
+      "coords": [
+        -13.0068644,
+        -41.3700917
+      ],
+      "categorias": [
+        "instituicoes",
+        "municipios"
+      ],
+      "resumo": "Aulas Audiovisual"
+    },
+    {
+      "id": "gremio-estudantil",
+      "nome": "Grêmio Estudantil",
+      "coords": [
+        -13.0056174,
+        -41.3704837
+      ],
+      "categorias": [
+        "instituicoes"
+      ],
+      "resumo": "Em torno de 300 alunos que lutam pelos direitos estudantis."
+    },
+    {
+      "id": "colegio-estadual-horacio-de-matos-c-e-h-m",
+      "nome": "COLÉGIO ESTADUAL HORÁCIO DE MATOS (C.E.H.M.)",
+      "coords": [
+        -13.0053427,
+        -41.3744764
+      ],
+      "categorias": [
+        "instituicoes"
+      ]
+    }
+  ]
+}

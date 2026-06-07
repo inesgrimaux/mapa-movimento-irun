@@ -1,0 +1,21 @@
+{
+  "version": "1.0.0",
+  "base": {
+    "id": "ti-oficial",
+    "file": "base/territorios.geojson",
+    "source": "SEI/SEPLAN — REG_TI_A_100K_2022_GCS_SIR_SEPLAN",
+    "srid": "EPSG:4674",
+    "scale": "1:100000",
+    "immutable": true
+  },
+  "layers": [
+    {
+      "id": "lagoa-grande",
+      "file": "rede/lagoa-grande.geojson",
+      "entidadeId": "lagoa-grande",
+      "territorioId": "ti-19",
+      "status": "active",
+      "source": "Mapeamento participativo AQCOMAQ — Google My Maps"
+    }
+  ]
+}

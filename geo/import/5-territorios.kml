@@ -1,0 +1,451 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>5 Territórios de Identidade | Programa Design Dialógico</name>
+    <description>Programa Design Dialógico: Uma Estratégia para a Gestão Criativa de Território, projeto apoiado pelo Fundo de Cultura, da Secretaria de Cultura do Estado da Bahia.</description>
+    <Style id="icon-1899-0288D1-normal">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1899-0288D1-highlight">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1899-0288D1">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1899-0288D1-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1899-0288D1-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1899-0288D1-nodesc-normal">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1899-0288D1-nodesc-highlight">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-1899-0288D1-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1899-0288D1-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1899-0288D1-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>RMS E ILHA DE ITAPARICA</name>
+      <Placemark>
+        <name>Associação Beneficente 25 de Junho</name>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3AE5a_Gxez39bZPMdGd1NbwTLvvnVH3VQ1kZr6vZZZ3N4TOCloIXyTzvrtCptCbEzisn52ezlRNKC-v-I1B23Jc3dTkDs_tPxqoT7-jvf_LxZdGIqPv0UE83QLNocO97Dcjbx_98uFoBU3P5ZgFyzrS1bYJrWcIUVrTqNZfet9LVEYx6jvtHCRSN0tjBtF7hzp8RXqu6WnSm0hJPVyQ?fife=s16383" height="200" width="auto" /><br><br>http://designdialogico.com/25-de-junho-sociedade-beneficente/]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://mymaps.usercontent.google.com/hostedimage/m/*/3AE5a_Gxez39bZPMdGd1NbwTLvvnVH3VQ1kZr6vZZZ3N4TOCloIXyTzvrtCptCbEzisn52ezlRNKC-v-I1B23Jc3dTkDs_tPxqoT7-jvf_LxZdGIqPv0UE83QLNocO97Dcjbx_98uFoBU3P5ZgFyzrS1bYJrWcIUVrTqNZfet9LVEYx6jvtHCRSN0tjBtF7hzp8RXqu6WnSm0hJPVyQ?fife=s16383</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -38.4820224,-12.8882257,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Quilombo do Tereré</name>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3AE5a_Gz1X_7QO5IJU_U7fJNP_lnOEt2L3LchyObp7xnEBYetoyZN6hYSFjvUZGWjZokTJPliiibpt4m7CMzoopE2HbyXTo-rwEruP3ikcLJ349cqNNqq3AhD_ICxAxMOwmV-bO7le2bX6LWXpqgqtk33fj7uYLEMOep2n8bi4oA16ynRzdt_W9w5lbUc-pUcsnesqMAVH3yMQxHY9w?fife=s16383" height="200" width="auto" /><br><br>http://designdialogico.com/quilomboterere/]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://mymaps.usercontent.google.com/hostedimage/m/*/3AE5a_Gz1X_7QO5IJU_U7fJNP_lnOEt2L3LchyObp7xnEBYetoyZN6hYSFjvUZGWjZokTJPliiibpt4m7CMzoopE2HbyXTo-rwEruP3ikcLJ349cqNNqq3AhD_ICxAxMOwmV-bO7le2bX6LWXpqgqtk33fj7uYLEMOep2n8bi4oA16ynRzdt_W9w5lbUc-pUcsnesqMAVH3yMQxHY9w?fife=s16383</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -38.6195329,-12.9658403,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Museu de Memória Viva dos Quilombos do Tereré e Maragojipinho</name>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3AE5a_GzMdLwHwZAY2q_hyKEqkavwfEUzNp1qtjc8sJG7os11vKNyD60wBQP9_XcasPeepVSZkEynUuVAr2IHW5NyO8IjvzrHD9qkFC97G9MftLQ-AEdkMDbEERy9mYPNKBCZ666yju4dUq5nFy1rgS5IoDuxeJCzBoFAkUnufXAwoF4fjcgw1hYD4ci-K_g-4Q5T_mYLQYlhSn4qcg?fife=s16383" height="200" width="auto" /><br><br>http://designdialogico.com/e-memoria-e-museu/<br><br><img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3AE5a_Gzq6pQ1a9IgSmevOn0RKBY5rjxFcmNPsmLk14Qsg_4sME28A-WPrSjwHasTxdOwFIc8-SVmiSTxullQ62U3F0uwDtXiF000RE0TYr9lkC1mJsYohA2YARRq4qrgDFf1tN_2x_HVDLHeByjsrbsX4MtIrz6tchSFa7Xn3l6eZVTMJZb3CvU2svRlnqSuAJq9yiNf9H1z1_Pmig?fife=s16383" height="200" width="auto" /><br><br><img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3AE5a_GwtVbZ2QkgyO2GQWe8YK-I0aZKXj-nDT3bKzIvkvGwr1ifOQF8EO9zovn8DBbCT86GsnTNqCP99PslQeNZ1Lzz7LvjwK-OSaBL17qc1mBMNLHmRNHb1zW71m-QG7T-NhM1Npn6Q-K-abjuOZAxtEYYaSrcDD10JMlAKttzTCI9GYPLmB-ToxgHeVt6PcOZz3wPCMdBpsvL2Ils?fife=s16383" height="200" width="auto" /><br><br><img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3AE5a_GzDP9P0_Eb7iPZKKtcmXTZX7YOkHLf07wmTh_C9LEXmDYh7qSrWWcVXxLxyI3_xgE4FQVPIln0iSgAz5iPeijQjV8nepKMZpz7xsvaG9covN1WZybONt4trwsq8IEpVwwHXyMd1EPnXtwCtSA6M9LZzTBmYyrORchWdZPCtP69-1RYzDd16FlGvNbEJczePqKgE_6Vhxdft-XY?fife=s16383" height="200" width="auto" /><br><br><img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3AE5a_GxMafYQKqn6cLSpATryU1mmtGSLBlIYo9DFxYuUD_W8tpc6bRYsDusZLsCBWfotp64iKxnkvGpPK8GJ2N8nos_E3V73x4U7V19OpNj055ul2bQgwkvnqVYNzXPfK-XsTk4BjBSELzHmTJD9GYaq-nefVWPQrmmCGXhd6py4lVMQpquNf6CnwpR3NhuOJ5otmgWa_ETF0hESHEo?fife=s16383" height="200" width="auto" />]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://mymaps.usercontent.google.com/hostedimage/m/*/3AE5a_GzMdLwHwZAY2q_hyKEqkavwfEUzNp1qtjc8sJG7os11vKNyD60wBQP9_XcasPeepVSZkEynUuVAr2IHW5NyO8IjvzrHD9qkFC97G9MftLQ-AEdkMDbEERy9mYPNKBCZ666yju4dUq5nFy1rgS5IoDuxeJCzBoFAkUnufXAwoF4fjcgw1hYD4ci-K_g-4Q5T_mYLQYlhSn4qcg?fife=s16383 https://mymaps.usercontent.google.com/hostedimage/m/*/3AE5a_Gzq6pQ1a9IgSmevOn0RKBY5rjxFcmNPsmLk14Qsg_4sME28A-WPrSjwHasTxdOwFIc8-SVmiSTxullQ62U3F0uwDtXiF000RE0TYr9lkC1mJsYohA2YARRq4qrgDFf1tN_2x_HVDLHeByjsrbsX4MtIrz6tchSFa7Xn3l6eZVTMJZb3CvU2svRlnqSuAJq9yiNf9H1z1_Pmig?fife=s16383 https://mymaps.usercontent.google.com/hostedimage/m/*/3AE5a_GwtVbZ2QkgyO2GQWe8YK-I0aZKXj-nDT3bKzIvkvGwr1ifOQF8EO9zovn8DBbCT86GsnTNqCP99PslQeNZ1Lzz7LvjwK-OSaBL17qc1mBMNLHmRNHb1zW71m-QG7T-NhM1Npn6Q-K-abjuOZAxtEYYaSrcDD10JMlAKttzTCI9GYPLmB-ToxgHeVt6PcOZz3wPCMdBpsvL2Ils?fife=s16383 https://mymaps.usercontent.google.com/hostedimage/m/*/3AE5a_GzDP9P0_Eb7iPZKKtcmXTZX7YOkHLf07wmTh_C9LEXmDYh7qSrWWcVXxLxyI3_xgE4FQVPIln0iSgAz5iPeijQjV8nepKMZpz7xsvaG9covN1WZybONt4trwsq8IEpVwwHXyMd1EPnXtwCtSA6M9LZzTBmYyrORchWdZPCtP69-1RYzDd16FlGvNbEJczePqKgE_6Vhxdft-XY?fife=s16383 https://mymaps.usercontent.google.com/hostedimage/m/*/3AE5a_GxMafYQKqn6cLSpATryU1mmtGSLBlIYo9DFxYuUD_W8tpc6bRYsDusZLsCBWfotp64iKxnkvGpPK8GJ2N8nos_E3V73x4U7V19OpNj055ul2bQgwkvnqVYNzXPfK-XsTk4BjBSELzHmTJD9GYaq-nefVWPQrmmCGXhd6py4lVMQpquNf6CnwpR3NhuOJ5otmgWa_ETF0hESHEo?fife=s16383</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -38.6197858,-12.9661881,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Vamos Navegar</name>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3AE5a_GylDBcKwXaDCeu2WoLCctVUWvIQxWQwCyCJUkrL4H3Hoo59HPDC3T6gHAE02jyiBqwc4ytfibiW_iX7au0jgrc1-9IuK9lPDNvt6SP_5035TSioARDItKdcmTw-FJOo4GhMtabvCpqXRz5xR8HqSYn2-kaSuHMhKhpnmE1joCtW3ZJ80DRC3UuCWMLFpfCZg9gAkq3Mc3oEKQ?fife=s16383" height="200" width="auto" /><br><br>http://designdialogico.com/vamosnavegar/]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://mymaps.usercontent.google.com/hostedimage/m/*/3AE5a_GylDBcKwXaDCeu2WoLCctVUWvIQxWQwCyCJUkrL4H3Hoo59HPDC3T6gHAE02jyiBqwc4ytfibiW_iX7au0jgrc1-9IuK9lPDNvt6SP_5035TSioARDItKdcmTw-FJOo4GhMtabvCpqXRz5xR8HqSYn2-kaSuHMhKhpnmE1joCtW3ZJ80DRC3UuCWMLFpfCZg9gAkq3Mc3oEKQ?fife=s16383</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -38.6148252,-12.9760342,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Mare de Março</name>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3AE5a_GyfSuyETb6wySBnpuTGBhzTnWND-pKwnn_9bQZ2BTlD4-lC8mkb3RGM-t1e6keHwSg6_a9UKnoXXsqlCbSCauOoHqpOd1cJBCgexpaKumMfNPJBY3aUlrd02sgyS4N6-HB2w0Pyipql5XsofpB8XQR2ijrp9aM30fyKqmFetCdH5SZYxmfejO1uKP5ty76snQgB3Crh0PAp-w?fife=s16383" height="200" width="auto" /><br><br>http://designdialogico.com/projetos-de-itaparica-e-regiao-recebem-formacao-em-desenvolvimento-sustentavel/]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://mymaps.usercontent.google.com/hostedimage/m/*/3AE5a_GyfSuyETb6wySBnpuTGBhzTnWND-pKwnn_9bQZ2BTlD4-lC8mkb3RGM-t1e6keHwSg6_a9UKnoXXsqlCbSCauOoHqpOd1cJBCgexpaKumMfNPJBY3aUlrd02sgyS4N6-HB2w0Pyipql5XsofpB8XQR2ijrp9aM30fyKqmFetCdH5SZYxmfejO1uKP5ty76snQgB3Crh0PAp-w?fife=s16383</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -38.6766525,-12.8891911,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Itaparica</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -38.6730631,-12.9001699,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Vera Cruz</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -38.7158702,-13.0229254,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Salvador</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -38.5016363,-12.9777378,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>BAIXO SUL</name>
+      <Placemark>
+        <name>Comunidade Terreiro Caxuté</name>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3AE5a_Gzy7DAV-MriHpSv2arEnit4MQuhF62k_hf2qDVBxeqkKCeJvy-NMOlvcJGiQoSZZPIkC8MyRhwsvMVfutjohyABwcKJmlXqhuYT5FewQi8IxrODe5lj1XIUygyS0MKk-fUnTjpOZumHLO7WMviy-u5g4LlsJpuLQJhV6d9hbd86LVkMgzg0Q9wwDYULQaakaKGkkLuOTVoErw?fife=s16383" height="200" width="auto" /><br><br>http://designdialogico.com/caxute/]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://mymaps.usercontent.google.com/hostedimage/m/*/3AE5a_Gzy7DAV-MriHpSv2arEnit4MQuhF62k_hf2qDVBxeqkKCeJvy-NMOlvcJGiQoSZZPIkC8MyRhwsvMVfutjohyABwcKJmlXqhuYT5FewQi8IxrODe5lj1XIUygyS0MKk-fUnTjpOZumHLO7WMviy-u5g4LlsJpuLQJhV6d9hbd86LVkMgzg0Q9wwDYULQaakaKGkkLuOTVoErw?fife=s16383</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -39.0809139,-13.4146908,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Museu da Costa do Dendê de Cultura Afro-Indígena</name>
+        <description>http://designdialogico.com/museudacostadodendedeculturaafroindigena/ | http://www.museudacostadodende.com</description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -39.0899805,-13.467506,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Valença</name>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3AE5a_GwOsdWVa0pgj9DLVLLN7U2t-prccBTlRJUgC2KGENcEhfmVW_htrl58BibekQDEscHqzz5tKoqKGsaWkPfynfiF0A1Abi9Rc-rgsiqzOxk91kkBIAGW0UhF4fPhw3hNQHpR4QcBLoqwpyTkEiwLajUL-BUIs214ZEQmOqdUbphp5nP-DofTPd2XegYQvNPb35UVSrQCgevT3w?fife=s16383" height="200" width="auto" /><br><br>]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://mymaps.usercontent.google.com/hostedimage/m/*/3AE5a_GwOsdWVa0pgj9DLVLLN7U2t-prccBTlRJUgC2KGENcEhfmVW_htrl58BibekQDEscHqzz5tKoqKGsaWkPfynfiF0A1Abi9Rc-rgsiqzOxk91kkBIAGW0UhF4fPhw3hNQHpR4QcBLoqwpyTkEiwLajUL-BUIs214ZEQmOqdUbphp5nP-DofTPd2XegYQvNPb35UVSrQCgevT3w?fife=s16383</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -39.0720559,-13.370017,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>LITORAL SUL</name>
+      <Placemark>
+        <name>Serra Grande</name>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3AE5a_GzvXR5NzYAIdVHT8f9T--KxMxv_NpPvjYtG-syujQ8WmBQelpBgB6AvQOvXiQ1Tj6WFN295VrhGyhiX1Y6kT0wageIE7kbzuGmUehhY8Ucd-3a2XkzWr2VZhJZuGZ60g4v1r8l52EfShzt5ymYejp-Zhnnnqxg3hiClLNUx217Y1FVnHRoB18dRZwsUmqdG62nJV7xuCUnw2A?fife=s16383" height="200" width="auto" /><br><br>http://designdialogico.com/serra-grande/]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://mymaps.usercontent.google.com/hostedimage/m/*/3AE5a_GzvXR5NzYAIdVHT8f9T--KxMxv_NpPvjYtG-syujQ8WmBQelpBgB6AvQOvXiQ1Tj6WFN295VrhGyhiX1Y6kT0wageIE7kbzuGmUehhY8Ucd-3a2XkzWr2VZhJZuGZ60g4v1r8l52EfShzt5ymYejp-Zhnnnqxg3hiClLNUx217Y1FVnHRoB18dRZwsUmqdG62nJV7xuCUnw2A?fife=s16383</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -39.0402116,-14.4648636,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Museu Aberto de Serra Grande</name>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3AE5a_GzGuO4Hk5ANljs_5XCIp_2Q8X_VO1M-UaWn4KoaPUhRgsRRelmYeYjfqJHR67jMu0eM6AICu_28Pdp07I0Frbu1d718x7UFSzHl8zw28xpiLQJkpndl3QvsRwsMDCeW-7OuvS4BQ1t0hihDGi4GXLHPzy5lkpYETjZc2DCXpfE0KFt0OV_Y6f48r0spTtKCjDNWm11KtkBFgA?fife=s16383" height="200" width="auto" /><br><br>http://designdialogico.com/valenca-projeto-design-dialogico-inaugura-museu-aberto-de-serra-grande-jornal-grande-bahia-jgb/]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://mymaps.usercontent.google.com/hostedimage/m/*/3AE5a_GzGuO4Hk5ANljs_5XCIp_2Q8X_VO1M-UaWn4KoaPUhRgsRRelmYeYjfqJHR67jMu0eM6AICu_28Pdp07I0Frbu1d718x7UFSzHl8zw28xpiLQJkpndl3QvsRwsMDCeW-7OuvS4BQ1t0hihDGi4GXLHPzy5lkpYETjZc2DCXpfE0KFt0OV_Y6f48r0spTtKCjDNWm11KtkBFgA?fife=s16383</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -39.0348695,-14.4675073,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Casa Azul | Instituto Arapyaú</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -39.0345647,-14.4683873,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Revista LiGente</name>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3AE5a_GyXAwL_XQlxfaGZeYs72hPzYhRUQds6yC3S5gJf5d6YEMgWpdyBvfLUWstp3MnKZlNo2CuRH75lHkhdPCYlMwKpebUKEHsHyC3tT_85LL-_m1JJMg8Lf5q6w4QtBfXMp1Wkfsu19CifJqoKyQhvBwOwElIrYoJNvVvVt6PyCAWuhJsCHRTJX8_A7Fm_M3sZr7b4D0TWQddRqiU?fife=s16383" height="200" width="auto" /><br><br>https://designdialogico.com/ligente/]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://mymaps.usercontent.google.com/hostedimage/m/*/3AE5a_GyXAwL_XQlxfaGZeYs72hPzYhRUQds6yC3S5gJf5d6YEMgWpdyBvfLUWstp3MnKZlNo2CuRH75lHkhdPCYlMwKpebUKEHsHyC3tT_85LL-_m1JJMg8Lf5q6w4QtBfXMp1Wkfsu19CifJqoKyQhvBwOwElIrYoJNvVvVt6PyCAWuhJsCHRTJX8_A7Fm_M3sZr7b4D0TWQddRqiU?fife=s16383</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -39.0346314,-14.4675914,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>RECÔNCAVO</name>
+      <Placemark>
+        <name>Festa das Rendeiras</name>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3AE5a_GzLGptgINbP32cT4DalT5UBcviLdbJqNV8nk2I7rmEV5oHRnS-gV1dWEAfersyUcX_CypKQYKlxzfccpq6jfTFQxuf3ueyzqick0UKcyKdoNhJeCZYf2Szdz0k0UEj58uKuT2kMageuB2yqOZV-fkNgFfEfAQyvT26OGuVBz7ZPqpMivaStWvbrHklaG68cgmb40FBKj-R7yg?fife=s16383" height="200" width="auto" /><br><br>http://designdialogico.com/festa-das-rendeiras/]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://mymaps.usercontent.google.com/hostedimage/m/*/3AE5a_GzLGptgINbP32cT4DalT5UBcviLdbJqNV8nk2I7rmEV5oHRnS-gV1dWEAfersyUcX_CypKQYKlxzfccpq6jfTFQxuf3ueyzqick0UKcyKdoNhJeCZYf2Szdz0k0UEj58uKuT2kMageuB2yqOZV-fkNgFfEfAQyvT26OGuVBz7ZPqpMivaStWvbrHklaG68cgmb40FBKj-R7yg?fife=s16383</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -38.7891606,-12.7732,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Associação de Artesãos de Saubara</name>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3AE5a_GzR5zbUnNQxcdYoFy5om6QRsRUi-22Fa1hV9VLeI5M1J0OQX_DgU8QbWhHvEsNEinNO8uL9H5udV7sLAy9x1E57hzHU9nPp-eNsBcxPJ_VQALXsQa1vY_iUlVi55CVwwl1uvsCSKxms-l58fj-jSpQh9YZvDKI51zXrNYcIKYQihY_sWO-dh0b0zy_NM6BNK3AIfiYy_fa7624?fife=s16383" height="200" width="auto" /><br><br>]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://mymaps.usercontent.google.com/hostedimage/m/*/3AE5a_GzR5zbUnNQxcdYoFy5om6QRsRUi-22Fa1hV9VLeI5M1J0OQX_DgU8QbWhHvEsNEinNO8uL9H5udV7sLAy9x1E57hzHU9nPp-eNsBcxPJ_VQALXsQa1vY_iUlVi55CVwwl1uvsCSKxms-l58fj-jSpQh9YZvDKI51zXrNYcIKYQihY_sWO-dh0b0zy_NM6BNK3AIfiYy_fa7624?fife=s16383</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -38.7628271,-12.7391106,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>CHAPADA DIAMANTINA</name>
+      <Placemark>
+        <name>Mucugê</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -41.3711799,-13.0088285,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Museu do Arquivo</name>
+        <description>Exposição Fotográfica Mucugé</description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -41.3701689,-13.0069219,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Guiné</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -41.5395502,-12.77089,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Guiné de Baixo</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -41.533333,-12.733333,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Escola Municipal de 1º e 2º Graus Eurico Belo</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -41.538647,-12.7704201,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Ponto de Cultura de Guiné</name>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3AE5a_GydAGAs7r1Ms2NKix2XyP3Xs1M36FTtrShGR09uWkn--3bkg8H8ex5afENMJe8W5bM7AmBIFT_9u76PxtOCrGnAb_KPWvmnOelF02G4EjnV2uiG_3GdlD4unjG5tawb7P6tRxjnlgVcLhI_h3JhXKrLSQ0a2w5YsGphC3vZffhy6CGwgQCtdTQVfBc-F4L1doEjmi9xVE2MGA?fife=s16383" height="200" width="auto" /><br><br>http://designdialogico.com/ponto-de-cultura-guine/<br><br><img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3AE5a_GyPq7vjY_uAYT-LapSKG2kZ6leLFvlxX4598YIIp9WMHyDVHtaH9bRQv4cswlrC-Qm3BBK0Ia8XEMpXHzgJsVT2SPtCWLl9sLzzB2owpWKZi0RXgVsFSFCpnddFarnD_1t5t4uMRysxVi7ZfS13bDA73tGZb3wREmRy2o-agNu8bznHmf3HDnE2LMNYjLfdqgHThpxUzmQr4Q?fife=s16383" height="200" width="auto" />]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://mymaps.usercontent.google.com/hostedimage/m/*/3AE5a_GydAGAs7r1Ms2NKix2XyP3Xs1M36FTtrShGR09uWkn--3bkg8H8ex5afENMJe8W5bM7AmBIFT_9u76PxtOCrGnAb_KPWvmnOelF02G4EjnV2uiG_3GdlD4unjG5tawb7P6tRxjnlgVcLhI_h3JhXKrLSQ0a2w5YsGphC3vZffhy6CGwgQCtdTQVfBc-F4L1doEjmi9xVE2MGA?fife=s16383 https://mymaps.usercontent.google.com/hostedimage/m/*/3AE5a_GyPq7vjY_uAYT-LapSKG2kZ6leLFvlxX4598YIIp9WMHyDVHtaH9bRQv4cswlrC-Qm3BBK0Ia8XEMpXHzgJsVT2SPtCWLl9sLzzB2owpWKZi0RXgVsFSFCpnddFarnD_1t5t4uMRysxVi7ZfS13bDA73tGZb3wREmRy2o-agNu8bznHmf3HDnE2LMNYjLfdqgHThpxUzmQr4Q?fife=s16383</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -41.5383919,-12.7702341,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Hostel Recanto da Vila</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -41.5391224,-12.7711227,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Povoado Quilombo da Barriguda</name>
+        <description><![CDATA[<a href="https://www.youtube.com/watch?v=Dy_jp8KOMPc"><img src="https://img.youtube.com/vi/Dy_jp8KOMPc/hqdefault.jpg" height="200" width="auto" /></a><br><br><a href="https://www.youtube.com/embed/Dy_jp8KOMPc">https://www.youtube.com/embed/Dy_jp8KOMPc</a><br><br><br><br><a href="https://www.youtube.com/watch?v=bt1mTbBoJAE"><img src="https://img.youtube.com/vi/bt1mTbBoJAE/hqdefault.jpg" height="200" width="auto" /></a><br><br><a href="https://www.youtube.com/embed/bt1mTbBoJAE">https://www.youtube.com/embed/bt1mTbBoJAE</a>]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://www.youtube.com/embed/Dy_jp8KOMPc https://www.youtube.com/embed/bt1mTbBoJAE</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -41.5733648,-12.708641,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Secretaria de Educação Mucugê</name>
+        <description>Aulas Audiovisual</description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -41.3700917,-13.0068644,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Grêmio Estudantil</name>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3AE5a_Gz1xBktBOIb4mCgQmMIzt-bPf_saWhHe6SYuY1b4T9jGQZMvQYmSplNMmP6dOQxQdN78czNc5Prq3P16rzVpaBNQ-R6IJX-zIxI37pYfxqxLnGNyBb_AUJh87RKpz8Vl_GewHftdG88ZnIJsPdxCzMn_k9Xqilu0khjPPlT_bdEJKS3cHg4B7n1UxKRbcbNJXcJUGKNrCg__Q?fife=s16383" height="200" width="auto" /><br><br>Em torno de 300 alunos que lutam pelos direitos estudantis.]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://mymaps.usercontent.google.com/hostedimage/m/*/3AE5a_Gz1xBktBOIb4mCgQmMIzt-bPf_saWhHe6SYuY1b4T9jGQZMvQYmSplNMmP6dOQxQdN78czNc5Prq3P16rzVpaBNQ-R6IJX-zIxI37pYfxqxLnGNyBb_AUJh87RKpz8Vl_GewHftdG88ZnIJsPdxCzMn_k9Xqilu0khjPPlT_bdEJKS3cHg4B7n1UxKRbcbNJXcJUGKNrCg__Q?fife=s16383</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -41.3704837,-13.0056174,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>COLÉGIO ESTADUAL HORÁCIO DE MATOS (C.E.H.M.)</name>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3AE5a_GzNjQ6sE4TZdk0L3s4b1xiokU3H4xnIdwC1xjAbBJUArEEBFjRdqdj3qciByNcZRQHaTXSX4M--vIyNaA1zzJSMu86QD4-Dbgl_k1ZCvhwGAEXgFxfi5wXC25c-RGjvfmcCl5odNQ5ptmiI-K0apJxEwj-tC4Fhg03zsZKbU17Vefj_OFBftR0SV9dyBAOprtTQ0992b93uW44?fife=s16383" height="200" width="auto" /><br><br>]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://mymaps.usercontent.google.com/hostedimage/m/*/3AE5a_GzNjQ6sE4TZdk0L3s4b1xiokU3H4xnIdwC1xjAbBJUArEEBFjRdqdj3qciByNcZRQHaTXSX4M--vIyNaA1zzJSMu86QD4-Dbgl_k1ZCvhwGAEXgFxfi5wXC25c-RGjvfmcCl5odNQ5ptmiI-K0apJxEwj-tC4Fhg03zsZKbU17Vefj_OFBftR0SV9dyBAOprtTQ0992b93uW44?fife=s16383</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -41.3744764,-13.0053427,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>

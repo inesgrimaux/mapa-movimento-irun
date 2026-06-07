@@ -1,0 +1,113 @@
+{
+  "id": "engenho-ponte",
+  "version": "1.0.0",
+  "territorioId": "ti-21",
+  "tipo": "quilombo",
+  "rede": true,
+  "meta": {
+    "nome": "Quilombo Engenho da Ponte",
+    "coords": [-13.023, -38.958],
+    "municipio": "Cachoeira (Santiago do Iguape)",
+    "uf": "BA",
+    "fonte": "AMNQPEP — Movimento Irun / Design de Território",
+    "responsavel": "Associação de Mulheres Negras, Quilombolas e Pescadoras no Quilombo do Engenho da Ponte (AMNQPEP)",
+    "licenca": "CC BY-NC-SA 4.0",
+    "updatedAt": "2025-06-06"
+  },
+  "sidebar": {
+    "apresentacao": "O Quilombo Engenho da Ponte, em Santiago do Iguape (40 km de Cachoeira), foi reconhecido pela Fundação Cultural Palmares em 2004. Antigo engenho de cana que operou até a década de 1960, o território reúne comunidades quilombolas do Vale do Iguape, com práticas de pesca artesanal, mariscagem, agricultura familiar e extrativismo — articuladas pela AMNQPEP desde 2003.",
+    "identidade": [
+      {
+        "id": "historia",
+        "titulo": "História e memória",
+        "conteudo": "O Engenho da Ponte é memória viva da escravidão e da resistência quilombola no Recôncavo. Reconhecido em 2004, integra um conjunto de quilombos do Vale do Iguape com forte enraizamento cultural afro-brasileiro."
+      },
+      {
+        "id": "cultura",
+        "titulo": "Cultura",
+        "conteudo": "Preservação de saberes como esmola cantada, dende artesanal e comitê notório saber. O Encontro de Mulheres Negras e Quilombolas no Engenho da Ponte, há mais de 10 anos, reúne milhares de mulheres do Recôncavo."
+      },
+      {
+        "id": "meio-ambiente",
+        "titulo": "Meio ambiente",
+        "conteudo": "Manguezais, rios e Mata Atlântica circundam o território — fundamentais para reprodução física e cultural das comunidades pesqueiras e extrativistas."
+      },
+      {
+        "id": "patrimonio",
+        "titulo": "Património",
+        "conteudo": "Ruínas e vestígios do engenho de cana, práticas pesqueiras tradicionais e saberes de mulheres negras e quilombolas compõem o património material e imaterial."
+      },
+      {
+        "id": "economia",
+        "titulo": "Economia",
+        "conteudo": "Pesca artesanal, mariscagem, agricultura familiar, artesanato (dende), extrativismo vegetal e turismo comunitário — especialmente com o coletivo de jovens quilombolas."
+      },
+      {
+        "id": "comunidade",
+        "titulo": "Comunidade",
+        "conteudo": "A AMNQPEP agrega mulheres negras, pescadoras, marisqueiras, extrativistas e artesãs de Engenho da Ponte e quilombos circunvizinhos — em sua maioria mães solo e chefas de família."
+      },
+      {
+        "id": "educacao",
+        "titulo": "Educação",
+        "conteudo": "Encontros de mulheres, seminários, feira da diversidade e diálogos abertos à comunidade promovem formação política e valorização da identidade negra e quilombola."
+      },
+      {
+        "id": "mobilidade",
+        "titulo": "Mobilidade",
+        "conteudo": "Distrito de Santiago do Iguape, a 40 km de Cachoeira, no Território de Identidade Recôncavo (TI 21)."
+      },
+      {
+        "id": "potencialidades",
+        "titulo": "Potencialidades",
+        "conteudo": "Turismo comunitário (Rota da Liberdade), articulação de mulheres negras da Bahia, feiras da diversidade e visibilidade nacional via imprensa e redes."
+      },
+      {
+        "id": "futuro",
+        "titulo": "Visão de futuro",
+        "conteudo": "Fortalecer o coletivo de mulheres, ampliar turismo comunitário sustentável e consolidar a preservação de saberes tradicionais no Vale do Iguape."
+      }
+    ],
+    "produtos": [
+      { "nome": "Dende artesanal", "descricao": "Produção tradicional preservada pelas mulheres do quilombo." },
+      { "nome": "Pesca e mariscagem", "descricao": "Atividades extrativistas sustentáveis do Vale do Iguape." }
+    ],
+    "roteiros": [
+      { "titulo": "Turismo comunitário — Rota da Liberdade", "descricao": "Experiências com o coletivo de jovens quilombolas do Engenho da Ponte." }
+    ],
+    "fotos": [
+      { "src": "assets/engenho-ponte/fotos/foto-01.jpg", "legenda": "Quilombo Engenho da Ponte" },
+      { "src": "assets/engenho-ponte/fotos/foto-02.jpg", "legenda": "Turismo comunitário com coletivo de jovens" },
+      { "src": "assets/engenho-ponte/fotos/foto-03.jpg", "legenda": "Vivência no território" },
+      { "src": "assets/engenho-ponte/fotos/foto-04.jpg", "legenda": "Comunidade quilombola" },
+      { "src": "assets/engenho-ponte/fotos/foto-05.jpg", "legenda": "Território do Recôncavo" }
+    ],
+    "videos": [],
+    "portfolio": [
+      { "titulo": "Articulação de mulheres negras e quilombolas", "href": "assets/engenho-ponte/pdf/Articulação de mulheres negras e quilombolas - Quilombo engenho da Ponte.pdf", "tipo": "pdf" },
+      { "titulo": "Dissertação — Flávia Mara Henriques Gomes (2015)", "href": "assets/engenho-ponte/pdf/2015_FlaviaMaraHenriquesGomes.pdf", "tipo": "pdf" },
+      { "titulo": "Artigo — Fabio Batista Pereira", "href": "assets/engenho-ponte/pdf/econceio1,+Artigo+14+-Fabio+Batista+Pereira+-+Normas+da+Revista+(1)+(3).pdf", "tipo": "pdf" }
+    ],
+    "festas": [
+      { "nome": "Encontro de Mulheres Negras e Quilombolas", "periodo": "Anual — 10+ anos", "descricao": "Mais de 6 mil mulheres reunidas ao longo da década de resistência." },
+      { "nome": "Feira da Diversidade", "periodo": "Anual", "descricao": "Promovida pela articulação de mulheres em Cachoeira." }
+    ],
+    "noticias": [
+      { "titulo": "Caongé, Dendê, Kalemba — Engenho da Ponte e Engenho da Praia", "href": "https://cpisp.org.br/caonge-dende-kalemba-engenho-da-ponte-e-engenho-da-praia/" },
+      { "titulo": "Mara da Ponte e a força do coletivo de mulheres — Brasil de Fato", "href": "https://www.brasildefato.com.br/2026/03/17/mara-da-ponte-e-a-forca-do-coletivo-de-mulheres-no-quilombo-engenho-da-ponte/" },
+      { "titulo": "Encontro e Feira da Diversidade — Revista Afirmativa", "href": "https://revistaafirmativa.com.br/articulacao-de-mulheres-negras-do-quilombo-engenho-da-ponte-promove-encontro-e-feira-da-diversidade-em-cachoeira-ba/" }
+    ],
+    "redes": [
+      { "rede": "Instagram", "handle": "@quilomboarticularmulheres", "href": "https://www.instagram.com/quilomboarticularmulheres/" },
+      { "rede": "Instagram", "handle": "@turismo_rotadaliberdade", "href": "https://www.instagram.com/turismo_rotadaliberdade/" }
+    ],
+    "links": [
+      { "titulo": "Google Maps — Engenho da Ponte", "href": "https://maps.app.goo.gl/vtzNmVtwecayf5PW6" }
+    ],
+    "contato": {
+      "organizacao": "AMNQPEP — Associação de Mulheres Negras, Quilombolas e Pescadoras no Quilombo do Engenho da Ponte",
+      "gestores": [],
+      "maps": "https://maps.app.goo.gl/vtzNmVtwecayf5PW6"
+    }
+  }
+}

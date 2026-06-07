@@ -1,0 +1,60 @@
+{
+  "id": "museu-dende",
+  "version": "1.0.0",
+  "territorioId": "ti-06",
+  "tipo": "instituicao",
+  "rede": true,
+  "meta": {
+    "nome": "Museu da Costa do Dendê",
+    "coords": [-13.467506, -39.0899805],
+    "municipio": "Valença e Cajaíba",
+    "uf": "BA",
+    "fonte": "Movimento Irun — cartografia REDE",
+    "responsavel": "Museu da Costa do Dendê de Cultura Afro-Indígena",
+    "licenca": "CC BY-NC-SA 4.0",
+    "updatedAt": "2026-06-06"
+  },
+  "sidebar": {
+    "apresentacao": "O Museu da Costa do Dendê de Cultura Afro-Indígena é um museu vivo na região de Valença e Cajaíba, Baixo Sul da Bahia. Celebra as cosmovisões Bantu e Indígena, com trilhas ecológicas, oficinas culturais e acervo etnocultural sobre as manifestações tradicionais da Costa do Dendê. Instituição distinta do Kilombo Tenondé e da Comunidade Terreiro Caxuté.",
+    "identidade": [
+      {
+        "id": "historia",
+        "titulo": "Museu vivo",
+        "conteudo": "Espaço de memória e experiência na Costa do Dendê — entre dendezeiros, manguezais e comunidades tradicionais de Valença e Cajaíba. Abordagem etnocultural das manifestações afro-indígenas do Baixo Sul."
+      },
+      {
+        "id": "cultura",
+        "titulo": "Cosmovisões Bantu e Indígena",
+        "conteudo": "O acervo e a programação centram-se nas cosmovisões Bantu e Indígena — saberes, rituais, produções simbólicas e modos de habitar o território da região."
+      },
+      {
+        "id": "patrimonio",
+        "titulo": "Acervo etnocultural",
+        "conteudo": "Acervo etnocultural dedicado às manifestações tradicionais da Costa do Dendê — memória viva articulada com terreiros, quilombos e comunidades pesqueiras e extrativistas."
+      },
+      {
+        "id": "rede",
+        "titulo": "Valença e REDE",
+        "conteudo": "No ti-06 (Baixo Sul), o museu integra a REDE Movimento Irun junto ao Kilombo Tenondé e ao Terreiro Caxuté — três territórios de identidade distintos no mesmo município."
+      }
+    ],
+    "roteiros": [
+      {
+        "titulo": "Trilhas ecológicas",
+        "descricao": "Percursos no território entre matas, manguezais e paisagem dos dendezeiros."
+      },
+      {
+        "titulo": "Oficinas culturais",
+        "descricao": "Atividades formativas e vivências sobre manifestações tradicionais afro-indígenas."
+      }
+    ],
+    "fotos": [],
+    "videos": [],
+    "links": [],
+    "contato": {
+      "organizacao": "Museu da Costa do Dendê de Cultura Afro-Indígena",
+      "endereco": "Região de Valença e Cajaíba — Baixo Sul da Bahia",
+      "maps": "https://www.google.com/maps/search/?api=1&query=Museu+da+Costa+do+Dend%C3%AA,+Valen%C3%A7a,+BA"
+    }
+  }
+}

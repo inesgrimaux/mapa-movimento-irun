@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Admin — Mapa Territorial MOVIMENTO IRUN</title>
+  <link href="https://fonts.googleapis.com/css2?family=Jost:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    :root { --bg:#fff; --text:#111; --muted:#454545; --border:#e8e8e8; --yellow:#f5c518; --yellow-dim:rgba(245,197,24,0.15); }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { font-family: Jost, sans-serif; background: var(--bg); color: var(--text); padding: 24px; max-width: 720px; margin: 0 auto; line-height: 1.6; }
+    h1 { font-size: 1.1rem; letter-spacing: 0.1em; margin-bottom: 8px; }
+    p, li { color: var(--muted); margin-bottom: 12px; font-size: 0.9rem; }
+    .badge { display: inline-block; background: var(--yellow); color: #111; font-size: 0.65rem; font-weight: 700; padding: 4px 10px; border-radius: 12px; letter-spacing: 0.08em; margin-bottom: 16px; }
+    .flow {
+      background: var(--yellow-dim);
+      border-left: 3px solid var(--yellow);
+      padding: 14px 16px;
+      margin-bottom: 24px;
+      border-radius: 0 8px 8px 0;
+    }
+    .flow strong { color: var(--text); }
+    .flow ol { margin: 8px 0 0 18px; }
+    .flow li { margin-bottom: 6px; }
+    .email { font-weight: 600; color: var(--text); word-break: break-all; }
+    label { display: block; font-size: 0.75rem; font-weight: 600; margin: 16px 0 6px; letter-spacing: 0.06em; color: var(--text); }
+    input, select, textarea { width: 100%; padding: 10px; border: 1px solid var(--border); border-radius: 6px; font-family: inherit; font-size: 0.85rem; background: var(--bg); color: var(--text); }
+    textarea { min-height: 100px; resize: vertical; }
+    .actions { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 24px; }
+    button {
+      background: #111; color: #fff; border: none; padding: 12px 20px;
+      border-radius: 8px; font-family: inherit; font-weight: 600; cursor: pointer;
+      letter-spacing: 0.04em; font-size: 0.82rem;
+    }
+    button.secondary { background: transparent; color: var(--text); border: 1px solid var(--border); }
+    button:hover { opacity: 0.9; }
+    a { color: inherit; }
+    .links { margin-top: 32px; font-size: 0.8rem; }
+    code { font-size: 0.82em; background: #f5f5f5; padding: 2px 6px; border-radius: 4px; }
+    .note { font-size: 0.78rem; margin-top: 20px; padding-top: 16px; border-top: 1px solid var(--border); }
+  </style>
+</head>
+<body>
+  <span class="badge">ATUALIZAR CONTEÚDO · REDE</span>
+  <h1>ADMIN · MAPA TERRITORIAL</h1>
+  <p>Preencha os dados da entidade territorial. Nada entra no mapa público automaticamente — tudo passa por revisão editorial.</p>
+
+  <div class="flow">
+    <strong>Jornada de publicação</strong>
+    <ol>
+      <li>Preencher o formulário abaixo</li>
+      <li>Clicar em <strong>Exportar JSON</strong> (descarrega o ficheiro)</li>
+      <li>Enviar por email para <span class="email">casadecastroalves@gmail.com</span> — anexar o JSON</li>
+      <li>A equipa GRIMAUX / MOVIMENTO IRUN revê o conteúdo</li>
+      <li>Só depois da validação: actualização no repositório e publicação em <code>casadecastroalves.com.br/territorios/</code></li>
+    </ol>
+  </div>
+
+  <form id="form-entidade" onsubmit="return false;">
+    <label for="tipo">Tipo</label>
+    <select id="tipo">
+      <option value="quilombo">Quilombo / Assentamento</option>
+      <option value="municipio">Município</option>
+      <option value="projeto">Projeto</option>
+      <option value="instituicao">Instituição</option>
+    </select>
+
+    <label for="nome">Nome</label>
+    <input id="nome" type="text" placeholder="Ex.: Quilombo Lagoa Grande">
+
+    <label for="territorioId">Território de Identidade</label>
+    <select id="territorioId">
+      <option value="ti-19">19 — Portal do Sertão</option>
+      <option value="ti-06">06 — Baixo Sul</option>
+      <option value="ti-21">21 — Recôncavo</option>
+    </select>
+
+    <label for="apresentacao">Apresentação</label>
+    <textarea id="apresentacao" placeholder="Texto introdutório…"></textarea>
+
+    <label for="video">Link YouTube</label>
+    <input id="video" type="url" placeholder="https://youtube.com/...">
+
+    <div class="actions">
+      <button type="button" id="btn-export">Exportar JSON e enviar por email</button>
+      <button type="button" id="btn-export-full" class="secondary">Exportar mapa completo (backup)</button>
+    </div>
+  </form>
+
+  <p class="note">O mapa público mostra apenas o que já foi validado. Submissões por email não alteram o site até revisão manual — não é necessário mapa de teste separado.</p>
+
+  <div class="links">
+    <a href="../index.html">← Voltar ao mapa</a>
+  </div>
+
+  <script type="module">
+    const EXPORT_EMAIL = "casadecastroalves@gmail.com";
+
+    function openEmail(filename, extra = "") {
+      const date = new Date().toISOString().slice(0, 10);
+      const subject = encodeURIComponent(`REDE MOVIMENTO IRUN — ${filename}`);
+      const body = encodeURIComponent(
+        `Nova submissão para o mapa territorial.\n\n` +
+          `Ficheiro: ${filename}\n` +
+          `Data: ${date}\n${extra}\n\n` +
+          `Anexe o JSON descarregado a este email.\n\n` +
+          `— Enviado via formulário Admin`
+      );
+      window.location.href = `mailto:${EXPORT_EMAIL}?subject=${subject}&body=${body}`;
+    }
+
+    function downloadJson(data, filename) {
+      const blob = new Blob([JSON.stringify(data, null, 2)], { type: "application/json" });
+      const a = document.createElement("a");
+      a.href = URL.createObjectURL(blob);
+      a.download = filename;
+      a.click();
+      URL.revokeObjectURL(a.href);
+    }
+
+    document.getElementById("btn-export").addEventListener("click", () => {
+      const nome = document.getElementById("nome").value.trim();
+      const slug = nome
+        .toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "")
+        .replace(/[^a-z0-9]+/g, "-").replace(/(^-|-$)/g, "") || "nova-entidade";
+
+      const videoUrl = document.getElementById("video").value.trim();
+      let videoId = "";
+      if (videoUrl) {
+        const m = videoUrl.match(/(?:v=|youtu\.be\/|embed\/)([\w-]{11})/);
+        videoId = m ? m[1] : videoUrl.split(/v=|youtu.be\//).pop();
+      }
+
+      const data = {
+        id: slug,
+        version: "1.0.0",
+        territorioId: document.getElementById("territorioId").value,
+        tipo: document.getElementById("tipo").value,
+        rede: true,
+        meta: {
+          nome: nome || slug,
+          fonte: "Cartografia Social — Design de Território",
+          responsavel: "",
+          updatedAt: new Date().toISOString().slice(0, 10),
+        },
+        sidebar: {
+          apresentacao: document.getElementById("apresentacao").value.trim(),
+          videos: videoId ? [{ tipo: "youtube", id: videoId, titulo: "Vídeo" }] : [],
+        },
+      };
+
+      const filename = `${slug}.json`;
+      downloadJson(data, filename);
+      openEmail(filename, `Entidade: ${nome || slug}`);
+    });
+
+    document.getElementById("btn-export-full").addEventListener("click", async () => {
+      const { exportMapaJson } = await import("../js/export.js");
+      const { filename } = await exportMapaJson({ openEmail: true });
+      alert(`Backup descarregado: ${filename}\nAnexe ao email para ${EXPORT_EMAIL}`);
+    });
+  </script>
+</body>
+</html>

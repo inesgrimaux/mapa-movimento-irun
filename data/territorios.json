@@ -1,0 +1,32 @@
+{
+  "version": "1.0.0",
+  "territorios": [
+    { "id": "ti-01", "cod": "01", "nome": "Irecê", "redeAtiva": false },
+    { "id": "ti-02", "cod": "02", "nome": "Velho Chico", "redeAtiva": false },
+    { "id": "ti-03", "cod": "03", "nome": "Chapada Diamantina", "redeAtiva": false },
+    { "id": "ti-04", "cod": "04", "nome": "Sisal", "redeAtiva": false },
+    { "id": "ti-05", "cod": "05", "nome": "Litoral Sul", "redeAtiva": false },
+    { "id": "ti-06", "cod": "06", "nome": "Baixo Sul", "redeAtiva": false },
+    { "id": "ti-07", "cod": "07", "nome": "Extremo Sul", "redeAtiva": false },
+    { "id": "ti-08", "cod": "08", "nome": "Médio Sudoeste da Bahia", "redeAtiva": false },
+    { "id": "ti-09", "cod": "09", "nome": "Vale do Jiquiriçá", "redeAtiva": false },
+    { "id": "ti-10", "cod": "10", "nome": "Sertão do São Francisco", "redeAtiva": false },
+    { "id": "ti-11", "cod": "11", "nome": "Bacia do Rio Grande", "redeAtiva": false },
+    { "id": "ti-12", "cod": "12", "nome": "Bacia do Paramirim", "redeAtiva": false },
+    { "id": "ti-13", "cod": "13", "nome": "Sertão Produtivo", "redeAtiva": false },
+    { "id": "ti-14", "cod": "14", "nome": "Piemonte do Paraguaçu", "redeAtiva": false },
+    { "id": "ti-15", "cod": "15", "nome": "Bacia do Jacuípe", "redeAtiva": false },
+    { "id": "ti-16", "cod": "16", "nome": "Piemonte da Diamantina", "redeAtiva": false },
+    { "id": "ti-17", "cod": "17", "nome": "Semiárido Nordeste II", "redeAtiva": false },
+    { "id": "ti-18", "cod": "18", "nome": "Litoral Norte e Agreste Baiano", "redeAtiva": false },
+    { "id": "ti-19", "cod": "19", "nome": "Portal do Sertão", "redeAtiva": false },
+    { "id": "ti-20", "cod": "20", "nome": "Sudoeste Baiano", "redeAtiva": false },
+    { "id": "ti-21", "cod": "21", "nome": "Recôncavo", "redeAtiva": false },
+    { "id": "ti-22", "cod": "22", "nome": "Médio Rio de Contas", "redeAtiva": false },
+    { "id": "ti-23", "cod": "23", "nome": "Bacia do Rio Corrente", "redeAtiva": false },
+    { "id": "ti-24", "cod": "24", "nome": "Itaparica", "redeAtiva": false },
+    { "id": "ti-25", "cod": "25", "nome": "Piemonte Norte do Itapicuru", "redeAtiva": false },
+    { "id": "ti-26", "cod": "26", "nome": "Metropolitano de Salvador", "redeAtiva": false },
+    { "id": "ti-27", "cod": "27", "nome": "Costa do Descobrimento", "redeAtiva": false }
+  ]
+}

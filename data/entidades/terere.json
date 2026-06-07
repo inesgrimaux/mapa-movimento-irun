@@ -1,0 +1,28 @@
+{
+  "id": "terere",
+  "version": "1.0.0",
+  "territorioId": "ti-26",
+  "tipo": "quilombo",
+  "rede": true,
+  "meta": {
+    "nome": "Quilombo do Tereré",
+    "coords": [-12.9658403, -38.6195329],
+    "municipio": "Vera Cruz",
+    "uf": "BA",
+    "fonte": "Movimento Irun — cartografia REDE",
+    "responsavel": "Museu de Memória Viva dos Quilombos do Tereré e Maragojipinho",
+    "licenca": "CC BY-NC-SA 4.0",
+    "updatedAt": "2026-06-06"
+  },
+  "sidebar": {
+    "apresentacao": "O Quilombo do Tereré e o Museu de Memória Viva dos Quilombos do Tereré e Maragojipinho são referência patrimonial na Baía de Todos os Santos, em Vera Cruz. Território de memória quilombola, turismo cultural e educação patrimonial.",
+    "identidade": [
+      { "id": "historia", "titulo": "História e memória", "conteudo": "Quilombo histórico com museu de memória viva articulando Tereré e Maragojipinho." },
+      { "id": "patrimonio", "titulo": "Património", "conteudo": "Museu de Memória Viva — espaço de preservação e difusão da cultura quilombola." },
+      { "id": "turismo", "titulo": "Turismo", "conteudo": "Visitação cultural e roteiros na RMS — património e identidade afro-brasileira." }
+    ],
+    "fotos": [],
+    "videos": [],
+    "links": []
+  }
+}

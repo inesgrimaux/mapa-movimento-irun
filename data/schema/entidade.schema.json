@@ -1,0 +1,29 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Entidade REDE Movimento Irun",
+  "type": "object",
+  "required": ["id", "version", "territorioId", "tipo", "rede", "meta"],
+  "properties": {
+    "id": { "type": "string" },
+    "version": { "type": "string" },
+    "territorioId": { "type": "string", "pattern": "^ti-[0-9]{2}$" },
+    "tipo": { "enum": ["quilombo", "assentamento", "municipio", "projeto", "instituicao"] },
+    "rede": { "const": true },
+    "geoLayerId": { "type": "string" },
+    "meta": {
+      "type": "object",
+      "required": ["nome", "fonte", "updatedAt"],
+      "properties": {
+        "nome": { "type": "string" },
+        "coords": { "type": "array", "items": { "type": "number" }, "minItems": 2, "maxItems": 2 },
+        "municipio": { "type": "string" },
+        "uf": { "type": "string" },
+        "fonte": { "type": "string" },
+        "responsavel": { "type": "string" },
+        "licenca": { "type": "string" },
+        "updatedAt": { "type": "string", "format": "date" }
+      }
+    },
+    "sidebar": { "type": "object" }
+  }
+}

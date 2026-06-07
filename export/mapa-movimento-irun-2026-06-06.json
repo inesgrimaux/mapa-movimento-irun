@@ -1,0 +1,972 @@
+{
+  "exportedAt": "2026-06-06T12:00:00.000Z",
+  "project": "MOVIMENTO IRUN — Mapa Territorial",
+  "version": "1.0.0",
+  "manifest": {
+    "version": "1.0.0",
+    "entidades": [
+      "lagoa-grande",
+      "tenonde",
+      "engenho-ponte"
+    ],
+    "pontos": [
+      "ti-19"
+    ],
+    "roteiros": []
+  },
+  "mapa": {
+    "version": "1.0.0",
+    "title": "MOVIMENTO IRUN",
+    "subtitle": "IDENTIDADE E TERRITÓRIO",
+    "sobreTitulo": "Sobre o Mapa",
+    "sobre": [
+      "Este documento foi construído junto às comunidades mapeadas como resultado do PROGRAMA BEM VIVER do Projeto MOVIMENTO IRUN, dentro da demarcação dos 27 Territórios de Identidade, observando critérios ambientais, econômicos e culturais, os quais indicam identidade, coesão social, cultural e territorial. A SecultBA assumiu a Política de Territorialização da Cultura, em todas as suas instâncias, em atenção à diversidade de manifestações culturais dos Territórios de Identidade.",
+      "A constituição dos Territórios de Identidade (TI) aconteceu a partir de 2007. A SecultBA utilizou-se de conceito da SEI – Superintendência de Estudos Econômicos, para o MDA – Ministério do Desenvolvimento Agrário, lastreados pelo conceito de Território, muito adequado à lógica cultural.",
+      "O projeto Movimento Irun foi contemplado nos editais da Política Nacional Aldir Blanc Bahia e tem apoio financeiro do Governo do Estado da Bahia, por meio da Secretaria de Cultura do Estado da Bahia via PNAB, direcionada pelo Ministério da Cultura - Governo Federal. A iniciativa é também contemplada pela Política Nacional Cultura Viva."
+    ],
+    "description": "Mapa territorial interactivo da Bahia. Divisão oficial em 27 Territórios de Identidade e mapeamento participativo da REDE Movimento Irun.",
+    "source": {
+      "geographic": "SEI/SEPLAN — REG_TI_A_100K_2022_GCS_SIR_SEPLAN",
+      "social": "Cartografia Social — Design de Território · Programa Bem Viver · Movimento Irun"
+    },
+    "footer": "DESIGN DE TERRITÓRIO · GRIMAUX · MOVIMENTO IRUN",
+    "redeMeta": 27
+  },
+  "territorios": {
+    "version": "1.0.0",
+    "territorios": [
+      {
+        "id": "ti-01",
+        "cod": "01",
+        "nome": "Irecê",
+        "redeAtiva": false
+      },
+      {
+        "id": "ti-02",
+        "cod": "02",
+        "nome": "Velho Chico",
+        "redeAtiva": false
+      },
+      {
+        "id": "ti-03",
+        "cod": "03",
+        "nome": "Chapada Diamantina",
+        "redeAtiva": false
+      },
+      {
+        "id": "ti-04",
+        "cod": "04",
+        "nome": "Sisal",
+        "redeAtiva": false
+      },
+      {
+        "id": "ti-05",
+        "cod": "05",
+        "nome": "Litoral Sul",
+        "redeAtiva": false
+      },
+      {
+        "id": "ti-06",
+        "cod": "06",
+        "nome": "Baixo Sul",
+        "redeAtiva": false
+      },
+      {
+        "id": "ti-07",
+        "cod": "07",
+        "nome": "Extremo Sul",
+        "redeAtiva": false
+      },
+      {
+        "id": "ti-08",
+        "cod": "08",
+        "nome": "Médio Sudoeste da Bahia",
+        "redeAtiva": false
+      },
+      {
+        "id": "ti-09",
+        "cod": "09",
+        "nome": "Vale do Jiquiriçá",
+        "redeAtiva": false
+      },
+      {
+        "id": "ti-10",
+        "cod": "10",
+        "nome": "Sertão do São Francisco",
+        "redeAtiva": false
+      },
+      {
+        "id": "ti-11",
+        "cod": "11",
+        "nome": "Bacia do Rio Grande",
+        "redeAtiva": false
+      },
+      {
+        "id": "ti-12",
+        "cod": "12",
+        "nome": "Bacia do Paramirim",
+        "redeAtiva": false
+      },
+      {
+        "id": "ti-13",
+        "cod": "13",
+        "nome": "Sertão Produtivo",
+        "redeAtiva": false
+      },
+      {
+        "id": "ti-14",
+        "cod": "14",
+        "nome": "Piemonte do Paraguaçu",
+        "redeAtiva": false
+      },
+      {
+        "id": "ti-15",
+        "cod": "15",
+        "nome": "Bacia do Jacuípe",
+        "redeAtiva": false
+      },
+      {
+        "id": "ti-16",
+        "cod": "16",
+        "nome": "Piemonte da Diamantina",
+        "redeAtiva": false
+      },
+      {
+        "id": "ti-17",
+        "cod": "17",
+        "nome": "Semiárido Nordeste II",
+        "redeAtiva": false
+      },
+      {
+        "id": "ti-18",
+        "cod": "18",
+        "nome": "Litoral Norte e Agreste Baiano",
+        "redeAtiva": false
+      },
+      {
+        "id": "ti-19",
+        "cod": "19",
+        "nome": "Portal do Sertão",
+        "redeAtiva": false
+      },
+      {
+        "id": "ti-20",
+        "cod": "20",
+        "nome": "Sudoeste Baiano",
+        "redeAtiva": false
+      },
+      {
+        "id": "ti-21",
+        "cod": "21",
+        "nome": "Recôncavo",
+        "redeAtiva": false
+      },
+      {
+        "id": "ti-22",
+        "cod": "22",
+        "nome": "Médio Rio de Contas",
+        "redeAtiva": false
+      },
+      {
+        "id": "ti-23",
+        "cod": "23",
+        "nome": "Bacia do Rio Corrente",
+        "redeAtiva": false
+      },
+      {
+        "id": "ti-24",
+        "cod": "24",
+        "nome": "Itaparica",
+        "redeAtiva": false
+      },
+      {
+        "id": "ti-25",
+        "cod": "25",
+        "nome": "Piemonte Norte do Itapicuru",
+        "redeAtiva": false
+      },
+      {
+        "id": "ti-26",
+        "cod": "26",
+        "nome": "Metropolitano de Salvador",
+        "redeAtiva": false
+      },
+      {
+        "id": "ti-27",
+        "cod": "27",
+        "nome": "Costa do Descobrimento",
+        "redeAtiva": false
+      }
+    ]
+  },
+  "geoManifest": {
+    "version": "1.0.0",
+    "base": {
+      "id": "ti-oficial",
+      "file": "base/territorios.geojson",
+      "source": "SEI/SEPLAN — REG_TI_A_100K_2022_GCS_SIR_SEPLAN",
+      "srid": "EPSG:4674",
+      "scale": "1:100000",
+      "immutable": true
+    },
+    "layers": [
+      {
+        "id": "lagoa-grande",
+        "file": "rede/lagoa-grande.geojson",
+        "entidadeId": "lagoa-grande",
+        "territorioId": "ti-19",
+        "status": "active",
+        "source": "Mapeamento participativo AQCOMAQ — Google My Maps"
+      }
+    ]
+  },
+  "entidades": {
+    "lagoa-grande": {
+      "id": "lagoa-grande",
+      "version": "1.0.0",
+      "territorioId": "ti-19",
+      "tipo": "quilombo",
+      "rede": true,
+      "geoLayerId": "lagoa-grande",
+      "meta": {
+        "nome": "Quilombo Lagoa Grande",
+        "coords": [
+          -12.134794,
+          -38.9974336
+        ],
+        "municipio": "Feira de Santana",
+        "uf": "BA",
+        "fonte": "AQCOMAQ — Movimento Irun / Design de Território",
+        "responsavel": "Associação Quilombola Comunitária de Maria Quitéria (AQCOMAQ)",
+        "licenca": "CC BY-NC-SA 4.0",
+        "updatedAt": "2025-06-06"
+      },
+      "sidebar": {
+        "apresentacao": "O Território Quilombola de Lagoa Grande, em Feira de Santana, é representado legalmente pela AQCOMAQ — Associação Quilombola Comunitária de Maria Quitéria. A comunidade articula memória, cultura, produção comunitária e formação da juventude quilombola, com destaque para o Novembro Negro (desde 1973) e o Coletivo da Juventude, fundado em 2023.",
+        "identidade": [
+          {
+            "id": "historia",
+            "titulo": "História e memória",
+            "conteudo": "Lagoa Grande é território de resistência quilombola com tradição de celebração do Novembro Negro desde 1973. O evento reúne a comunidade em torno de histórias locais de resistência, saberes ancestrais e demandas coletivas — chegando à 11ª edição em 2023. Ações como \"Recontando o 2 de Julho\" (2024) reforçam a memória afro-brasileira no território."
+          },
+          {
+            "id": "cultura",
+            "titulo": "Cultura",
+            "conteudo": "Samba de roda, festividades do Novembro Negro, rodas de conversa e registros com sambistas locais (2016) compõem o património cultural vivo. O Coletivo da Juventude promove pré-jornadas, mutirões e eventos itinerantes de escuta entre comunidades vizinhas, como Lagoa da Camisa."
+          },
+          {
+            "id": "meio-ambiente",
+            "titulo": "Meio ambiente",
+            "conteudo": "O território articula produção comunitária com quintais produtivos e práticas agroecológicas. A 1ª Pré-Jornada de Agroecologia da Juventude de Lagoa Grande (junho 2024) consolidou o diálogo entre juventude, terra e soberania alimentar."
+          },
+          {
+            "id": "patrimonio",
+            "titulo": "Património",
+            "conteudo": "Casas de farinha comunitárias, a Escola Municipal Quilombola Luiz Pereira dos Santos e o sede da AQCOMAQ são marcos do património material e simbólico do quilombo, mapeados na camada REDE participativa."
+          },
+          {
+            "id": "economia",
+            "titulo": "Economia",
+            "conteudo": "Produção de farinha, quintais produtivos e a Feira Quilombola da Lagoa movimentam o comércio local e a economia solidária. Sabores do Quilombo e produtos comunitários fortalecem renda e identidade territorial."
+          },
+          {
+            "id": "comunidade",
+            "titulo": "Comunidade",
+            "conteudo": "A AQCOMAQ articula famílias quilombolas, o Coletivo da Juventude (desde nov/2023) e parcerias com escolas públicas e privadas por meio de visitas guiadas ao território (2024)."
+          },
+          {
+            "id": "educacao",
+            "titulo": "Educação",
+            "conteudo": "A Escola Municipal Quilombola Luiz Pereira dos Santos e o Ponto de Cultura — Movimento Juventude são espaços de formação. Encontros de escuta, mutirões e pré-jornadas da juventude ampliam a educação popular no território."
+          },
+          {
+            "id": "mobilidade",
+            "titulo": "Mobilidade",
+            "conteudo": "O quilombo situa-se na zona rural de Feira de Santana, com acesso pela Estrada da Lagoa — R. Real, integrando-se ao Território de Identidade Portal do Sertão (TI 19)."
+          },
+          {
+            "id": "potencialidades",
+            "titulo": "Potencialidades",
+            "conteudo": "Turismo comunitário, visitas guiadas, feira quilombola, documentação audiovisual e articulação intergeracional (Coletivo da Juventude + Novembro Negro) são potências para visibilidade e autonomia do território."
+          },
+          {
+            "id": "futuro",
+            "titulo": "Visão de futuro",
+            "conteudo": "Consolidar a demarcação territorial, ampliar a formação da juventude quilombola e fortalecer a cadeia produtiva comunitária."
+          }
+        ],
+        "produtos": [
+          {
+            "nome": "Farinha comunitária",
+            "descricao": "Produção nas casas de farinha mapeadas no território."
+          },
+          {
+            "nome": "Sabores do Quilombo",
+            "descricao": "Gastronomia e produtos da comunidade quilombola de Lagoa Grande."
+          }
+        ],
+        "roteiros": [
+          {
+            "titulo": "Visitas guiadas ao território",
+            "descricao": "Roteiro educativo com escolas e grupos — registros de 2024."
+          }
+        ],
+        "fotos": [
+          {
+            "src": "assets/lagoa-grande/fotos/page_4_img_16_Image41.jpg",
+            "legenda": "Comunidade quilombola de Lagoa Grande"
+          },
+          {
+            "src": "assets/lagoa-grande/fotos/page_5_img_21_Image45.jpg",
+            "legenda": "Vida comunitária no território"
+          },
+          {
+            "src": "assets/lagoa-grande/fotos/page_6_img_26_Image51.jpg",
+            "legenda": "Memória e resistência"
+          },
+          {
+            "src": "assets/lagoa-grande/fotos/page_8_img_34_Image59.jpg",
+            "legenda": "Novembro Negro"
+          },
+          {
+            "src": "assets/lagoa-grande/fotos/page_8_img_35_Image60.jpg",
+            "legenda": "Cultura viva"
+          },
+          {
+            "src": "assets/lagoa-grande/fotos/page_8_img_36_Image61.jpg",
+            "legenda": "Festividades locais"
+          },
+          {
+            "src": "assets/lagoa-grande/fotos/page_13_img_53_Image78.jpg",
+            "legenda": "Coletivo da Juventude"
+          },
+          {
+            "src": "assets/lagoa-grande/fotos/page_15_img_64_Image89.jpg",
+            "legenda": "Pré-Jornada da Juventude — palco"
+          },
+          {
+            "src": "assets/lagoa-grande/fotos/page_16_img_68_Image93.jpg",
+            "legenda": "Roda de conversa — Recontando o 2 de Julho"
+          },
+          {
+            "src": "assets/lagoa-grande/fotos/page_17_img_71_Image96.jpg",
+            "legenda": "2 de Julho no território"
+          },
+          {
+            "src": "assets/lagoa-grande/fotos/page_17_img_72_Image97.jpg",
+            "legenda": "Celebração comunitária"
+          },
+          {
+            "src": "assets/lagoa-grande/fotos/page_21_img_91_Image124.jpg",
+            "legenda": "Visitas guiadas a escolas"
+          },
+          {
+            "src": "assets/lagoa-grande/fotos/page_28_img_110_Image163.jpg",
+            "legenda": "Entrevista com sambistas locais (2016)"
+          },
+          {
+            "src": "assets/lagoa-grande/fotos/page_30_img_116_Image174.jpg",
+            "legenda": "Encerramento — Pré-Jornada da Juventude"
+          },
+          {
+            "src": "assets/lagoa-grande/fotos/page_31_img_117_Image177.jpg",
+            "legenda": "Juventude quilombola"
+          },
+          {
+            "src": "assets/lagoa-grande/fotos/page_32_img_121_Image183.jpg",
+            "legenda": "Mutirão comunitário"
+          },
+          {
+            "src": "assets/lagoa-grande/fotos/page_33_img_123_Image187.jpg",
+            "legenda": "Formação no território"
+          },
+          {
+            "src": "assets/lagoa-grande/fotos/page_39_img_140_Image220.jpg",
+            "legenda": "Encontro de formação"
+          },
+          {
+            "src": "assets/lagoa-grande/fotos/page_39_img_141_Image221.jpg",
+            "legenda": "Teia dos Povos"
+          },
+          {
+            "src": "assets/lagoa-grande/fotos/page_40_img_143_Image225.jpg",
+            "legenda": "Articulação territorial"
+          },
+          {
+            "src": "assets/lagoa-grande/fotos/page_41_img_144_Image228.jpg",
+            "legenda": "Rede de saberes"
+          },
+          {
+            "src": "assets/lagoa-grande/fotos/Encontro-de-formacao-na-Teia-dos-Povos-2.jpg",
+            "legenda": "Encontro de formação na Teia dos Povos"
+          }
+        ],
+        "videos": [
+          {
+            "tipo": "youtube",
+            "id": "Z_xr3JTQzyg",
+            "titulo": "Documentário — Os Guardiões da Lagoa"
+          },
+          {
+            "tipo": "youtube",
+            "id": "JJJUScrmlFs",
+            "titulo": "Feira Quilombola da Lagoa movimenta comércio local"
+          },
+          {
+            "tipo": "youtube",
+            "id": "c_mW3zFYE10",
+            "titulo": "Quilombo da Lagoa — Feira de Santana"
+          },
+          {
+            "tipo": "drive",
+            "href": "https://drive.google.com/file/d/1zlF_eS7z7dftqoFVYTOuxrqBWzjsVgKG/view",
+            "titulo": "Minidocumentário — Itinerante de escuta aos jovens"
+          }
+        ],
+        "portfolio": [
+          {
+            "titulo": "Portfólio da Proponente (AQCOMAQ)",
+            "href": "assets/lagoa-grande/pdf/Portifólio da Proponente upload.pdf",
+            "tipo": "pdf"
+          }
+        ],
+        "festas": [
+          {
+            "nome": "Novembro Negro",
+            "periodo": "Desde 1973",
+            "descricao": "Evento anual de resistência e memória quilombola — 11ª edição em 2023."
+          },
+          {
+            "nome": "Recontando o 2 de Julho",
+            "periodo": "Julho",
+            "descricao": "Roda de conversa e celebração da independência da Bahia no território."
+          },
+          {
+            "nome": "Pré-Jornada da Juventude",
+            "periodo": "Junho 2024",
+            "descricao": "Primeiro evento do Coletivo da Juventude — escuta, mutirão e show comunitário."
+          }
+        ],
+        "noticias": [
+          {
+            "titulo": "Guardiões da terra e do território — CESE",
+            "href": "https://cese.org.br/noticia/guardioes-da-terra-e-do-territorio-juventude-quilombola-na-bahia-se-mobiliza-na-luta-por-identidade-e-soberania-popular/"
+          },
+          {
+            "titulo": "Sabores do Quilombo — Consuelo Ponder",
+            "href": "http://www.bvconsueloponde.ba.gov.br/2022/12/16/sabores_do_quilombo_da_comunidade_quilombola_de_lagoa_grande/"
+          },
+          {
+            "titulo": "Novembro Negro — Interioriza (Defensoria BA)",
+            "href": "https://www.defensoria.ba.def.br/noticias/novembro-negro-quilombolas-apresentam-demandas-individuais-e-coletivas-na-3a-edicao-do-interioriza/"
+          },
+          {
+            "titulo": "Novembro Negro e demarcação — Teia dos Povos",
+            "href": "https://teiadospovos.org/o-novembro-negro-e-a-demarcacao-do-quilombo-da-lagoa-grande/"
+          },
+          {
+            "titulo": "Pré-Jornada de Agroecologia da Juventude — Teia dos Povos",
+            "href": "https://teiadospovos.org/1a-pre-jornada-de-agroecologia-da-juventude-de-lagoa-grande-acontecera-entre-os-dias-06-e-09-de-junho/"
+          }
+        ],
+        "redes": [
+          {
+            "rede": "Instagram",
+            "handle": "@mov.lagoagrande",
+            "href": "https://www.instagram.com/mov.lagoagrande/"
+          },
+          {
+            "rede": "Instagram",
+            "handle": "@associacaoquilombola2003",
+            "href": "https://www.instagram.com/associacaoquilombola2003/"
+          }
+        ],
+        "links": [
+          {
+            "titulo": "Google Maps — Território",
+            "href": "https://www.google.com/maps/d/u/0/embed?mid=1ptFqMRSiLd7Y5gcNj3ID3QlRy2wFO5Y"
+          }
+        ],
+        "contato": {
+          "organizacao": "AQCOMAQ — Associação Quilombola Comunitária de Maria Quitéria",
+          "gestores": [
+            "Tamille dos Santos Ferreira",
+            "Karen Cruz dos Santos e Santos",
+            "Paulo César Dias Santos",
+            "Ayrton Pereira Suzarte",
+            "Renilda Cruz dos Santos",
+            "João Eduardo dos Santos Ferreira"
+          ],
+          "maps": "https://www.google.com/maps/d/u/0/embed?mid=1ptFqMRSiLd7Y5gcNj3ID3QlRy2wFO5Y"
+        }
+      }
+    },
+    "tenonde": {
+      "id": "tenonde",
+      "version": "1.0.0",
+      "territorioId": "ti-06",
+      "tipo": "quilombo",
+      "rede": true,
+      "meta": {
+        "nome": "Kilombo Tenondé",
+        "coords": [
+          -13.3694,
+          -39.0731
+        ],
+        "municipio": "Valença",
+        "uf": "BA",
+        "fonte": "Kilombo Tenondé — Movimento Irun / Design de Território",
+        "responsavel": "Associação Eco Educativa e Cultural Kilombo Tenondé",
+        "licenca": "CC BY-NC-SA 4.0",
+        "updatedAt": "2025-06-06"
+      },
+      "sidebar": {
+        "apresentacao": "O Kilombo Tenondé é um aquilombamento contemporâneo fundado por Mestre Cobra Mansa em 1991, hoje na zona rural de Valença (BA). Reconhecido como Ponto de Cultura (2024), integra capoeira angola, agroecologia, construção ancestral, educação ambiental e turismo de base comunitária na Mata Atlântica do Baixo Sul.",
+        "identidade": [
+          {
+            "id": "historia",
+            "titulo": "História e memória",
+            "conteudo": "Fundado em 1991 no bairro de Coutos (Salvador), o Kilombo desenvolveu capoeira angola, agroecologia, hip-hop e construção ancestral até 2006, quando a sede migrou para Valença. Eventos como Permangola e CosmoAngola (2022) ampliam o diálogo contracolonial entre Mestre Cobra Mansa e lideranças quilombolas como Nêgo Bispo."
+          },
+          {
+            "id": "cultura",
+            "titulo": "Cultura",
+            "conteudo": "Capoeira Angola, dança ancestral, tambor, cinema, artesanato, culinária Bantu-indígena e composição musical são eixos culturais. O CosmoAngola (2025) articula debate contracolonial, ancestralidade afro-indígena e formação comunitária."
+          },
+          {
+            "id": "meio-ambiente",
+            "titulo": "Meio ambiente",
+            "conteudo": "Recuperação da Mata Atlântica, agrofloresta, meliponicultura, banco de sementes, viveiros, piscicultura, plantas medicinais e banheiro seco compõem a ecopedagogia do território. Premiado com Permaculture Magazine Award (2020), Aldir Blanc (2021) e Paulo Gustavo (2024)."
+          },
+          {
+            "id": "patrimonio",
+            "titulo": "Património",
+            "conteudo": "Construção ancestral em taipa, madeira, bambu e materiais reciclados; centro de documentação histórica; e tradições afro-indígenas preservadas como património imaterial vivo."
+          },
+          {
+            "id": "economia",
+            "titulo": "Economia",
+            "conteudo": "Produções agroecológicas (cacau, café, cupuaçu, banana, açaí, plantas medicinais), economia solidária, ecoturismo e comercialização de alimentos ancestrais do Baixo Sul."
+          },
+          {
+            "id": "comunidade",
+            "titulo": "Comunidade",
+            "conteudo": "Associação eco educativa que acolhe crianças, jovens, adultos e idosos — com atenção a públicos em vulnerabilidade social — em vivências abertas à comunidade e voluntários."
+          },
+          {
+            "id": "educacao",
+            "titulo": "Educação",
+            "conteudo": "Cursos de Design de Permacultura (PDC), agrofloresta, meliponicultura, construção sustentável, espagíria, oficinas e eventos formativos. Ponto de Cultura desde 2024."
+          },
+          {
+            "id": "mobilidade",
+            "titulo": "Mobilidade",
+            "conteudo": "Localizado na zona rural de Valença, na bacia do Rio Piau, integrando o Território de Identidade Baixo Sul (TI 06)."
+          },
+          {
+            "id": "potencialidades",
+            "titulo": "Potencialidades",
+            "conteudo": "Ecoturismo, turismo rural comunitário, intercâmbios nacionais e internacionais, formação em permacultura e referência em justiça ambiental e soberania alimentar."
+          },
+          {
+            "id": "futuro",
+            "titulo": "Visão de futuro",
+            "conteudo": "Ampliar CosmoAngola, fortalecer regeneração da terra e água, combater fome e desigualdade, e consolidar o Kilombo como território de resistência, formação e autonomia afro-indígena."
+          }
+        ],
+        "produtos": [
+          {
+            "nome": "Cacau orgânico",
+            "descricao": "Do cultivo agroflorestal na fazenda em Valença."
+          },
+          {
+            "nome": "Chocolate artesanal",
+            "descricao": "Do grão à barra — bean to bar."
+          },
+          {
+            "nome": "Mel de meliponíneos",
+            "descricao": "Meliponicultura comunitária."
+          },
+          {
+            "nome": "Artesanato e bens de bem-estar",
+            "descricao": "Produtos handcrafted do Kilombo."
+          }
+        ],
+        "externo": {
+          "site": "https://kilombotenonde.net/",
+          "produtos": "https://kilombotenonde.net/products.html",
+          "eventos": "https://kilombotenonde.net/events.html",
+          "reservas": "https://kilombotenonde.net/booking.html",
+          "about": "https://kilombotenonde.net/about.html",
+          "contato": "https://kilombotenonde.net/contact.html"
+        },
+        "roteiros": [
+          {
+            "titulo": "Vivências imersivas",
+            "descricao": "Turismo de base comunitária com capoeira, agrofloresta e recuperação ambiental."
+          },
+          {
+            "titulo": "Permangola / CosmoAngola",
+            "descricao": "Eventos formativos e culturais de referência nacional."
+          }
+        ],
+        "fotos": [],
+        "videos": [],
+        "portfolio": [
+          {
+            "titulo": "Portfólio Kilombo Tenondé 2025",
+            "href": "assets/tenonde/pdf/Portfólio Kilombo Tenondé 2025 ver01.pdf",
+            "tipo": "pdf"
+          },
+          {
+            "titulo": "Portfólio Kilombo Tenondé",
+            "href": "assets/tenonde/pdf/Portfólio Kilombo Tenonde.pdf",
+            "tipo": "pdf"
+          },
+          {
+            "titulo": "Portfólio Mestre Cobra Mansa",
+            "href": "assets/tenonde/pdf/Portfolio Mestre Cobra Mansa (1)_compressed (2).pdf",
+            "tipo": "pdf"
+          }
+        ],
+        "festas": [
+          {
+            "nome": "CosmoAngola",
+            "periodo": "2022–2025",
+            "descricao": "Encruzilhada de debate contracolonial, capoeira angola e formação comunitária."
+          },
+          {
+            "nome": "Permangola",
+            "periodo": "Desde 2006",
+            "descricao": "Encontro de permacultura e agrofloresta na região."
+          }
+        ],
+        "noticias": [],
+        "redes": [
+          {
+            "rede": "Site",
+            "handle": "kilombotenonde.net",
+            "href": "https://kilombotenonde.net/"
+          }
+        ],
+        "links": [
+          {
+            "titulo": "Google Maps — Kilombo Tenondé",
+            "href": "https://maps.app.goo.gl/cNztDSPXEuRLvqRj8"
+          }
+        ],
+        "contato": {
+          "organizacao": "Associação Eco Educativa e Cultural Kilombo Tenondé",
+          "gestores": [
+            "Mestre Cobra Mansa"
+          ],
+          "email": "info@kilombotenonde.net",
+          "maps": "https://maps.app.goo.gl/cNztDSPXEuRLvqRj8"
+        }
+      }
+    },
+    "engenho-ponte": {
+      "id": "engenho-ponte",
+      "version": "1.0.0",
+      "territorioId": "ti-21",
+      "tipo": "quilombo",
+      "rede": true,
+      "meta": {
+        "nome": "Quilombo Engenho da Ponte",
+        "coords": [
+          -13.023,
+          -38.958
+        ],
+        "municipio": "Cachoeira (Santiago do Iguape)",
+        "uf": "BA",
+        "fonte": "AMNQPEP — Movimento Irun / Design de Território",
+        "responsavel": "Associação de Mulheres Negras, Quilombolas e Pescadoras no Quilombo do Engenho da Ponte (AMNQPEP)",
+        "licenca": "CC BY-NC-SA 4.0",
+        "updatedAt": "2025-06-06"
+      },
+      "sidebar": {
+        "apresentacao": "O Quilombo Engenho da Ponte, em Santiago do Iguape (40 km de Cachoeira), foi reconhecido pela Fundação Cultural Palmares em 2004. Antigo engenho de cana que operou até a década de 1960, o território reúne comunidades quilombolas do Vale do Iguape, com práticas de pesca artesanal, mariscagem, agricultura familiar e extrativismo — articuladas pela AMNQPEP desde 2003.",
+        "identidade": [
+          {
+            "id": "historia",
+            "titulo": "História e memória",
+            "conteudo": "O Engenho da Ponte é memória viva da escravidão e da resistência quilombola no Recôncavo. Reconhecido em 2004, integra um conjunto de quilombos do Vale do Iguape com forte enraizamento cultural afro-brasileiro."
+          },
+          {
+            "id": "cultura",
+            "titulo": "Cultura",
+            "conteudo": "Preservação de saberes como esmola cantada, dende artesanal e comitê notório saber. O Encontro de Mulheres Negras e Quilombolas no Engenho da Ponte, há mais de 10 anos, reúne milhares de mulheres do Recôncavo."
+          },
+          {
+            "id": "meio-ambiente",
+            "titulo": "Meio ambiente",
+            "conteudo": "Manguezais, rios e Mata Atlântica circundam o território — fundamentais para reprodução física e cultural das comunidades pesqueiras e extrativistas."
+          },
+          {
+            "id": "patrimonio",
+            "titulo": "Património",
+            "conteudo": "Ruínas e vestígios do engenho de cana, práticas pesqueiras tradicionais e saberes de mulheres negras e quilombolas compõem o património material e imaterial."
+          },
+          {
+            "id": "economia",
+            "titulo": "Economia",
+            "conteudo": "Pesca artesanal, mariscagem, agricultura familiar, artesanato (dende), extrativismo vegetal e turismo comunitário — especialmente com o coletivo de jovens quilombolas."
+          },
+          {
+            "id": "comunidade",
+            "titulo": "Comunidade",
+            "conteudo": "A AMNQPEP agrega mulheres negras, pescadoras, marisqueiras, extrativistas e artesãs de Engenho da Ponte e quilombos circunvizinhos — em sua maioria mães solo e chefas de família."
+          },
+          {
+            "id": "educacao",
+            "titulo": "Educação",
+            "conteudo": "Encontros de mulheres, seminários, feira da diversidade e diálogos abertos à comunidade promovem formação política e valorização da identidade negra e quilombola."
+          },
+          {
+            "id": "mobilidade",
+            "titulo": "Mobilidade",
+            "conteudo": "Distrito de Santiago do Iguape, a 40 km de Cachoeira, no Território de Identidade Recôncavo (TI 21)."
+          },
+          {
+            "id": "potencialidades",
+            "titulo": "Potencialidades",
+            "conteudo": "Turismo comunitário (Rota da Liberdade), articulação de mulheres negras da Bahia, feiras da diversidade e visibilidade nacional via imprensa e redes."
+          },
+          {
+            "id": "futuro",
+            "titulo": "Visão de futuro",
+            "conteudo": "Fortalecer o coletivo de mulheres, ampliar turismo comunitário sustentável e consolidar a preservação de saberes tradicionais no Vale do Iguape."
+          }
+        ],
+        "produtos": [
+          {
+            "nome": "Dende artesanal",
+            "descricao": "Produção tradicional preservada pelas mulheres do quilombo."
+          },
+          {
+            "nome": "Pesca e mariscagem",
+            "descricao": "Atividades extrativistas sustentáveis do Vale do Iguape."
+          }
+        ],
+        "roteiros": [
+          {
+            "titulo": "Turismo comunitário — Rota da Liberdade",
+            "descricao": "Experiências com o coletivo de jovens quilombolas do Engenho da Ponte."
+          }
+        ],
+        "fotos": [
+          {
+            "src": "assets/engenho-ponte/fotos/foto-01.jpg",
+            "legenda": "Quilombo Engenho da Ponte"
+          },
+          {
+            "src": "assets/engenho-ponte/fotos/foto-02.jpg",
+            "legenda": "Turismo comunitário com coletivo de jovens"
+          },
+          {
+            "src": "assets/engenho-ponte/fotos/foto-03.jpg",
+            "legenda": "Vivência no território"
+          },
+          {
+            "src": "assets/engenho-ponte/fotos/foto-04.jpg",
+            "legenda": "Comunidade quilombola"
+          },
+          {
+            "src": "assets/engenho-ponte/fotos/foto-05.jpg",
+            "legenda": "Território do Recôncavo"
+          }
+        ],
+        "videos": [],
+        "portfolio": [
+          {
+            "titulo": "Articulação de mulheres negras e quilombolas",
+            "href": "assets/engenho-ponte/pdf/Articulação de mulheres negras e quilombolas - Quilombo engenho da Ponte.pdf",
+            "tipo": "pdf"
+          },
+          {
+            "titulo": "Dissertação — Flávia Mara Henriques Gomes (2015)",
+            "href": "assets/engenho-ponte/pdf/2015_FlaviaMaraHenriquesGomes.pdf",
+            "tipo": "pdf"
+          },
+          {
+            "titulo": "Artigo — Fabio Batista Pereira",
+            "href": "assets/engenho-ponte/pdf/econceio1,+Artigo+14+-Fabio+Batista+Pereira+-+Normas+da+Revista+(1)+(3).pdf",
+            "tipo": "pdf"
+          }
+        ],
+        "festas": [
+          {
+            "nome": "Encontro de Mulheres Negras e Quilombolas",
+            "periodo": "Anual — 10+ anos",
+            "descricao": "Mais de 6 mil mulheres reunidas ao longo da década de resistência."
+          },
+          {
+            "nome": "Feira da Diversidade",
+            "periodo": "Anual",
+            "descricao": "Promovida pela articulação de mulheres em Cachoeira."
+          }
+        ],
+        "noticias": [
+          {
+            "titulo": "Caongé, Dendê, Kalemba — Engenho da Ponte e Engenho da Praia",
+            "href": "https://cpisp.org.br/caonge-dende-kalemba-engenho-da-ponte-e-engenho-da-praia/"
+          },
+          {
+            "titulo": "Mara da Ponte e a força do coletivo de mulheres — Brasil de Fato",
+            "href": "https://www.brasildefato.com.br/2026/03/17/mara-da-ponte-e-a-forca-do-coletivo-de-mulheres-no-quilombo-engenho-da-ponte/"
+          },
+          {
+            "titulo": "Encontro e Feira da Diversidade — Revista Afirmativa",
+            "href": "https://revistaafirmativa.com.br/articulacao-de-mulheres-negras-do-quilombo-engenho-da-ponte-promove-encontro-e-feira-da-diversidade-em-cachoeira-ba/"
+          }
+        ],
+        "redes": [
+          {
+            "rede": "Instagram",
+            "handle": "@quilomboarticularmulheres",
+            "href": "https://www.instagram.com/quilomboarticularmulheres/"
+          },
+          {
+            "rede": "Instagram",
+            "handle": "@turismo_rotadaliberdade",
+            "href": "https://www.instagram.com/turismo_rotadaliberdade/"
+          }
+        ],
+        "links": [
+          {
+            "titulo": "Google Maps — Engenho da Ponte",
+            "href": "https://maps.app.goo.gl/vtzNmVtwecayf5PW6"
+          }
+        ],
+        "contato": {
+          "organizacao": "AMNQPEP — Associação de Mulheres Negras, Quilombolas e Pescadoras no Quilombo do Engenho da Ponte",
+          "gestores": [],
+          "maps": "https://maps.app.goo.gl/vtzNmVtwecayf5PW6"
+        }
+      }
+    }
+  },
+  "pontos": {
+    "ti-19": {
+      "territorioId": "ti-19",
+      "pontos": [
+        {
+          "id": "lg-escola-municipal-quilombola-luiz-pereira",
+          "nome": "ESCOLA MUNICIPAL QUILOMBOLA LUIZ PEREIRA DOS SANTOS",
+          "coords": [
+            -12.1367045,
+            -38.9894126
+          ],
+          "categorias": [
+            "quilombos",
+            "instituicoes"
+          ],
+          "entidadeId": "lagoa-grande"
+        },
+        {
+          "id": "lg-ponto-de-cultura---movimento-juventude",
+          "nome": "Ponto de Cultura - Movimento Juventude",
+          "coords": [
+            -12.1366125,
+            -38.9898594
+          ],
+          "categorias": [
+            "quilombos",
+            "instituicoes"
+          ],
+          "entidadeId": "lagoa-grande"
+        },
+        {
+          "id": "lg-casa-de-farinha-comunitaria",
+          "nome": "Casa de Farinha Comunitaria",
+          "coords": [
+            -12.1368032,
+            -38.9885283
+          ],
+          "categorias": [
+            "quilombos",
+            "producao"
+          ],
+          "entidadeId": "lagoa-grande"
+        },
+        {
+          "id": "lg-lagoa-grande",
+          "nome": "Lagoa Grande",
+          "coords": [
+            -12.134794,
+            -38.9974336
+          ],
+          "categorias": [
+            "quilombos"
+          ],
+          "entidadeId": "lagoa-grande"
+        },
+        {
+          "id": "lg-estrada-da-lagoa---r-real",
+          "nome": "Estrada da Lagoa - R.Real",
+          "coords": [
+            -12.1364723,
+            -38.9951096
+          ],
+          "categorias": [
+            "quilombos",
+            "projetos"
+          ],
+          "entidadeId": "lagoa-grande"
+        },
+        {
+          "id": "lg-quintal-produtivo",
+          "nome": "Quintal Produtivo",
+          "coords": [
+            -12.1338256,
+            -38.9911207
+          ],
+          "categorias": [
+            "quilombos",
+            "producao"
+          ],
+          "entidadeId": "lagoa-grande"
+        },
+        {
+          "id": "lg-casa-de-farinha-e--quintal-produtivo",
+          "nome": "Casa de Farinha e  Quintal Produtivo",
+          "coords": [
+            -12.1286818,
+            -38.9916659
+          ],
+          "categorias": [
+            "quilombos",
+            "producao"
+          ],
+          "entidadeId": "lagoa-grande"
+        },
+        {
+          "id": "lg-casa-de-farinha-e-quintal-produtivo",
+          "nome": "Casa de Farinha e Quintal Produtivo",
+          "coords": [
+            -12.1285879,
+            -38.9904151
+          ],
+          "categorias": [
+            "quilombos",
+            "producao"
+          ],
+          "entidadeId": "lagoa-grande"
+        },
+        {
+          "id": "lg-aqcomaq---associação-quilombola-comunitá",
+          "nome": "AQCOMAQ - Associação Quilombola Comunitária de Maria Quitéria - Comunidade Quilombola de Lagoa Grande",
+          "coords": [
+            -12.1368249,
+            -38.9898146
+          ],
+          "categorias": [
+            "quilombos",
+            "instituicoes"
+          ],
+          "entidadeId": "lagoa-grande"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "id": "itaparica",
+  "version": "1.0.0",
+  "territorioId": "ti-26",
+  "tipo": "municipio",
+  "rede": true,
+  "meta": {
+    "nome": "Itaparica",
+    "coords": [-12.8936, -38.6798],
+    "municipio": "Itaparica",
+    "uf": "BA",
+    "fonte": "Movimento Irun — cartografia REDE",
+    "responsavel": "Rede Movimento Irun",
+    "licenca": "CC BY-NC-SA 4.0",
+    "updatedAt": "2026-06-06"
+  },
+  "sidebar": {
+    "apresentacao": "Município de Itaparica, na ilha homônima — Território de Identidade Metropolitano de Salvador (ti-26), junto com Vera Cruz e Salvador. Tradição pesqueira, festiva e de proximidade com a capital. Na REDE Movimento Irun articula-se com Vera Cruz — destaque para os Caboclos de Itaparica, Maré de Março e o roteiro Contra Costa.",
+    "identidade": [
+      { "id": "historia", "titulo": "História e memória", "conteudo": "Ilha histórica na baía, com tradições afro-indígenas, pesca e festividades como os Caboclos de Itaparica." },
+      { "id": "cultura", "titulo": "Cultura", "conteudo": "Caboclos de Itaparica — masquerade e festividade; Maré de Março e projetos culturais locais." },
+      { "id": "turismo", "titulo": "Turismo", "conteudo": "Roteiro Contra Costa — percurso intermunicipal pela costa da ilha (Vera Cruz e Itaparica)." }
+    ],
+    "roteiros": [
+      { "titulo": "Contra Costa — Ilha de Itaparica", "descricao": "Marina de Itaparica · Fonte do Tororó · Ponte do Funil · Cacha Pregos · Pousada Norage. Roteiro intermunicipal com Vera Cruz." }
+    ],
+    "fotos": [],
+    "videos": [],
+    "links": []
+  }
+}

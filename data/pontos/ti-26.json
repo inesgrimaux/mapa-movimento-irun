@@ -1,0 +1,103 @@
+{
+  "territorioId": "ti-26",
+  "pontos": [
+    {
+      "id": "associacao-beneficente-25-de-junho",
+      "nome": "Associação Beneficente 25 de Junho",
+      "coords": [
+        -12.8882257,
+        -38.4820224
+      ],
+      "categorias": [
+        "instituicoes",
+        "projetos"
+      ]
+    },
+    {
+      "id": "quilombo-do-terere",
+      "nome": "Quilombo do Tereré",
+      "coords": [
+        -12.9658403,
+        -38.6195329
+      ],
+      "categorias": [
+        "quilombos",
+        "turismo"
+      ],
+      "entidadeId": "terere"
+    },
+    {
+      "id": "museu-de-memoria-viva-dos-quilombos-do-terere-e-",
+      "nome": "Museu de Memória Viva dos Quilombos do Tereré e Maragojipinho",
+      "coords": [
+        -12.9661881,
+        -38.6197858
+      ],
+      "categorias": [
+        "quilombos",
+        "turismo",
+        "instituicoes"
+      ],
+      "entidadeId": "terere"
+    },
+    {
+      "id": "vamos-navegar",
+      "nome": "Vamos Navegar",
+      "coords": [
+        -12.9760342,
+        -38.6148252
+      ],
+      "categorias": [
+        "projetos"
+      ],
+      "entidadeId": "vera-cruz"
+    },
+    {
+      "id": "mare-de-marco",
+      "nome": "Mare de Março",
+      "coords": [
+        -12.8891911,
+        -38.6766525
+      ],
+      "categorias": [
+        "projetos"
+      ],
+      "entidadeId": "itaparica"
+    },
+    {
+      "id": "itaparica",
+      "nome": "Itaparica",
+      "coords": [
+        -12.9001699,
+        -38.6730631
+      ],
+      "categorias": [
+        "municipios"
+      ],
+      "entidadeId": "itaparica"
+    },
+    {
+      "id": "vera-cruz",
+      "nome": "Vera Cruz",
+      "coords": [
+        -13.0229254,
+        -38.7158702
+      ],
+      "categorias": [
+        "municipios"
+      ],
+      "entidadeId": "vera-cruz"
+    },
+    {
+      "id": "salvador",
+      "nome": "Salvador",
+      "coords": [
+        -12.9777378,
+        -38.5016363
+      ],
+      "categorias": [
+        "municipios"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,139 @@
+{
+  "territorioId": "ti-19",
+  "pontos": [
+    {
+      "id": "lg-escola-municipal-quilombola-luiz-pereira",
+      "nome": "ESCOLA MUNICIPAL QUILOMBOLA LUIZ PEREIRA DOS SANTOS",
+      "coords": [
+        -12.1367045,
+        -38.9894126
+      ],
+      "categorias": [
+        "quilombos",
+        "instituicoes"
+      ],
+      "entidadeId": "lagoa-grande"
+    },
+    {
+      "id": "lg-ponto-de-cultura---movimento-juventude",
+      "nome": "Ponto de Cultura - Movimento Juventude",
+      "coords": [
+        -12.1366125,
+        -38.9898594
+      ],
+      "categorias": [
+        "quilombos",
+        "instituicoes"
+      ],
+      "entidadeId": "lagoa-grande"
+    },
+    {
+      "id": "lg-casa-de-farinha-comunitaria",
+      "nome": "Casa de Farinha Comunitaria",
+      "coords": [
+        -12.1368032,
+        -38.9885283
+      ],
+      "categorias": [
+        "quilombos",
+        "producao"
+      ],
+      "entidadeId": "lagoa-grande"
+    },
+    {
+      "id": "lg-lagoa-grande",
+      "nome": "Lagoa Grande",
+      "coords": [
+        -12.134794,
+        -38.9974336
+      ],
+      "categorias": [
+        "quilombos"
+      ],
+      "entidadeId": "lagoa-grande"
+    },
+    {
+      "id": "lg-estrada-da-lagoa---r-real",
+      "nome": "Estrada da Lagoa - R.Real",
+      "coords": [
+        -12.1364723,
+        -38.9951096
+      ],
+      "categorias": [
+        "quilombos",
+        "projetos"
+      ],
+      "entidadeId": "lagoa-grande"
+    },
+    {
+      "id": "lg-quintal-produtivo",
+      "nome": "Quintal Produtivo",
+      "coords": [
+        -12.1338256,
+        -38.9911207
+      ],
+      "categorias": [
+        "quilombos",
+        "producao"
+      ],
+      "entidadeId": "lagoa-grande"
+    },
+    {
+      "id": "lg-casa-de-farinha-e--quintal-produtivo",
+      "nome": "Casa de Farinha e  Quintal Produtivo",
+      "coords": [
+        -12.1286818,
+        -38.9916659
+      ],
+      "categorias": [
+        "quilombos",
+        "producao"
+      ],
+      "entidadeId": "lagoa-grande"
+    },
+    {
+      "id": "lg-casa-de-farinha-e-quintal-produtivo",
+      "nome": "Casa de Farinha e Quintal Produtivo",
+      "coords": [
+        -12.1285879,
+        -38.9904151
+      ],
+      "categorias": [
+        "quilombos",
+        "producao"
+      ],
+      "entidadeId": "lagoa-grande"
+    },
+    {
+      "id": "lg-aqcomaq---associação-quilombola-comunitá",
+      "nome": "AQCOMAQ - Associação Quilombola Comunitária de Maria Quitéria - Comunidade Quilombola de Lagoa Grande",
+      "coords": [-12.1368249, -38.9898146],
+      "categorias": ["quilombos", "instituicoes"],
+      "entidadeId": "lagoa-grande",
+      "popup": {
+        "contexto": "Portal do Sertão · Quilombo Lagoa Grande",
+        "slides": [
+          {
+            "titulo": "AQCOMAQ — sede comunitária",
+            "texto": "A Associação Quilombola Comunitária de Maria Quitéria articula famílias do território de Lagoa Grande, em Feira de Santana. Novembro Negro desde 1973, Coletivo da Juventude, casas de farinha e formação quilombola.",
+            "links": [
+              { "titulo": "mov.lagoagrande", "href": "https://www.instagram.com/mov.lagoagrande/" },
+              { "titulo": "teiadospovos.org", "href": "https://teiadospovos.org/o-novembro-negro-e-a-demarcacao-do-quilombo-da-lagoa-grande/" }
+            ],
+            "foto": "assets/lagoa-grande/fotos/page_4_img_16_Image41.jpg",
+            "legenda": "Comunidade quilombola de Lagoa Grande"
+          },
+          {
+            "titulo": "Os Guardiões da Lagoa",
+            "texto": "Documentário sobre a juventude quilombola na luta por identidade e soberania popular no território.",
+            "video": {
+              "tipo": "youtube",
+              "id": "Z_xr3JTQzyg",
+              "legenda": "Documentário — Os Guardiões da Lagoa"
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

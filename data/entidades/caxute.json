@@ -1,0 +1,96 @@
+{
+  "id": "caxute",
+  "version": "1.0.0",
+  "territorioId": "ti-06",
+  "tipo": "comunidade",
+  "rede": true,
+  "meta": {
+    "nome": "Comunidade Terreiro Caxuté",
+    "coords": [-13.4146908, -39.0809139],
+    "municipio": "Valença (Cajaíba · Maricoabo)",
+    "uf": "BA",
+    "fonte": "Movimento Irun — cartografia REDE · referências comunitárias e Wikipedia",
+    "responsavel": "Associação Cultural e Religiosa Terreiro Caxuté Tempo Marvila Senzala do Dendê — ACULTEMA",
+    "licenca": "CC BY-NC-SA 4.0",
+    "updatedAt": "2026-06-06"
+  },
+  "sidebar": {
+    "apresentacao": "A Comunidade Terreiro Caxuté é um território de identidade bantu-ameríndia no povoado de Cajaíba, distrito de Maricoabo, Valença — Baixo Sul da Bahia, Costa do Dendê. Entre rios, dendezeiros, matas e manguezais, o terreiro de candomblé bantu foi fundado em 1994 pela sacerdotisa afro Maria Balbina dos Santos, Mam'etu Kafurengá (Mãe Bárbara de Cajaíba), ampliando o legado de Mam'etu Kasanji (Mãe Mira), matriarca do Candomblé Bantu Kongo-Ngola do Baixo Sul.",
+    "identidade": [
+      {
+        "id": "historia",
+        "titulo": "História e memória",
+        "conteudo": "Fundado em 1994 por Mãe Bárbara e Irênio Querino Barbosa, com a sacralização de Mãe Mira (Almira da Conceição), da Rua dos Cajueiros. Funcionou inicialmente na Rua das Flores, Valença; desde 2000 na Rua da Graciosa. Território que resguarda sabedorias de sujeitos historicamente excluídos dos lugares oficiais de poder — cosmovisão Bantu compartilhada por Povos e Comunidades de Terreiro."
+      },
+      {
+        "id": "cultura",
+        "titulo": "Cultura e religião",
+        "conteudo": "Terreiro de candomblé bantu com inquices regentes Lembaranganga e Quitembo. Atividades afro-brasileiras e afro-ameríndias; CineCaxuté (Cinema de Terreiro); samba de roda, zambiapunga e culinária afro-baiana nas vivências abertas à sociedade."
+      },
+      {
+        "id": "educacao",
+        "titulo": "Escola Caxuté",
+        "conteudo": "Primeira Escola de Religião e Cultura de Matriz Africana do Baixo Sul da Bahia — espaço educativo onde crianças, jovens e adultos integram conhecimento oficial e saberes ancestrais, combatendo o recalque cultural e promovendo a afirmação identitária."
+      },
+      {
+        "id": "instituicao",
+        "titulo": "ACULTEMA e reconhecimentos",
+        "conteudo": "Representada pela ACULTEMA — Associação Cultural e Religiosa Terreiro Caxuté Tempo Marvila Senzala do Dendê. Utilidade pública municipal (Lei nº 2.257/2012, Valença) e estadual (Lei nº 13.292/BA). Registro FENACAB nº 3445. Prêmio Culturas Afro-Brasileiras — nota 100, Fundação Cultural Palmares (2014)."
+      },
+      {
+        "id": "territorio",
+        "titulo": "Território e Baixo Sul",
+        "conteudo": "Integra a Costa do Dendê e dialoga com Valença, Kilombo Tenondé e o Museu da Costa do Dendê — entidades distintas no mesmo município, articuladas na REDE Movimento Irun. Participação do Conselho Quilombola do Território do Baixo Sul e vivências com universidades (UNILAB, CONEA, entre outras)."
+      }
+    ],
+    "festas": [
+      {
+        "nome": "Méa Kambuká — Águas de Lemba",
+        "periodo": "1 a 16 de janeiro",
+        "descricao": "Calendário sagrado de abertura anual."
+      },
+      {
+        "nome": "Mulheres Caxuté",
+        "periodo": "Março (habitual)",
+        "descricao": "Encontro de Mulheres e das Relações de Gênero."
+      },
+      {
+        "nome": "Kizoomba Maionga — Malunda Kitembu",
+        "periodo": "6 a 10 de agosto",
+        "descricao": "Festa anual da comunidade."
+      },
+      {
+        "nome": "ENAFRO — Encontro Afro Ecumênico",
+        "periodo": "1 a 4 de dezembro",
+        "descricao": "Encontro Afro Ecumênico da Comunidade Terreiro Caxuté."
+      }
+    ],
+    "roteiros": [
+      {
+        "titulo": "Vivências na Comunidade",
+        "descricao": "Programação de vivências estaduais, nacionais e internacionais (VIVER TERREIRO) — integração ritual, roda de conversa, exposição fotográfica e culinária afro-baiana."
+      }
+    ],
+    "fotos": [],
+    "videos": [],
+    "redes": [
+      {
+        "rede": "Instagram",
+        "handle": "@comunidadecaxute.oficial",
+        "href": "https://www.instagram.com/comunidadecaxute.oficial/"
+      }
+    ],
+    "links": [
+      {
+        "titulo": "Terreiro Caxuté — Wikipedia",
+        "href": "https://pt.wikipedia.org/wiki/Terreiro_Caxut%C3%A9"
+      }
+    ],
+    "contato": {
+      "organizacao": "ACULTEMA — Comunidade Terreiro Caxuté",
+      "gestores": ["Mam'etu Kafurengá (Mãe Bárbara de Cajaíba)"],
+      "endereco": "Rua da Graciosa, Valença — BA (terreiro desde 2000) · Cajaíba, Maricoabo",
+      "maps": "https://www.google.com/maps/search/?api=1&query=Comunidade+Terreiro+Caxut%C3%A9,+Valen%C3%A7a,+BA"
+    }
+  }
+}

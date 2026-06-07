@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Roteiro Contra Costa</name>
+    <description><![CDATA[Saída da Marina de Itaparica<br>Fonte do Tororó<br>Cacha Pregos<br>Praia de Mangabeira<br>]]></description>
+    <Style id="icon-1899-0288D1-normal">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1899-0288D1-highlight">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1899-0288D1">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1899-0288D1-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1899-0288D1-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-000000-1200-nodesc-normal">
+      <LineStyle>
+        <color>ff000000</color>
+        <width>1.2</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-000000-1200-nodesc-highlight">
+      <LineStyle>
+        <color>ff000000</color>
+        <width>1.8</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-000000-1200-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-000000-1200-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-000000-1200-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>Paradas</name>
+      <Placemark>
+        <name>Marina Itaparíca</name>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3AE5a_GwZNJ9eZqHGOLofe7W08pjIGD9bLot0UJzbu4SGddGro1FOzOajGkLdJuE5-jmz1szBjyPes8CIk0DZkJ9ZYon-1NitPjJ16ZV7ePMeLR3_pk8rJF4JiXPdVW0tiZtKhTFiWqGCNVDHc_3_TaytypzBwVKdACJK1nX4cCvPP8WkL0a0edAtTMGBdmM254PtP1RQyzouKAsh9A?fife=s16383" height="200" width="auto" /><br><br><br><br><img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3AE5a_GxqhaFlrtxQDYQrfBOW2YVBirk1sQJsIcYxAfOJ1G6Z7e8APkJOpOStIzWso1q9DqF4cJ19LlgulNSaDywA-1ka7CLXQvKBYXBe9lWkBSpLhUSIQSoc-AF8KJ02R3GCM_FvakA3Z7RGEY3V0oV6zVDQQF7fiLXBCqqoI54JUIX2ybwfVxQ4BCMUTWqJNAr4zTQqOjKtHFlNrA?fife=s16383" height="200" width="auto" />]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://mymaps.usercontent.google.com/hostedimage/m/*/3AE5a_GwZNJ9eZqHGOLofe7W08pjIGD9bLot0UJzbu4SGddGro1FOzOajGkLdJuE5-jmz1szBjyPes8CIk0DZkJ9ZYon-1NitPjJ16ZV7ePMeLR3_pk8rJF4JiXPdVW0tiZtKhTFiWqGCNVDHc_3_TaytypzBwVKdACJK1nX4cCvPP8WkL0a0edAtTMGBdmM254PtP1RQyzouKAsh9A?fife=s16383 https://mymaps.usercontent.google.com/hostedimage/m/*/3AE5a_GxqhaFlrtxQDYQrfBOW2YVBirk1sQJsIcYxAfOJ1G6Z7e8APkJOpOStIzWso1q9DqF4cJ19LlgulNSaDywA-1ka7CLXQvKBYXBe9lWkBSpLhUSIQSoc-AF8KJ02R3GCM_FvakA3Z7RGEY3V0oV6zVDQQF7fiLXBCqqoI54JUIX2ybwfVxQ4BCMUTWqJNAr4zTQqOjKtHFlNrA?fife=s16383</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -38.683562,-12.8885715,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Fonte do Tororó - Ilha de Matarandiba</name>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3AE5a_GxQMOxj5pRVGrLfqVHQGOnYrNkbqZ7NzVKJXCrkJviNa6HfMKkyVukFT4tDiOQAO3k5SCUIkdMx95OKyU3xJrJRGyt21uEPmlpUDsawKWfO3zgynPqPr6c6c4Au2xSEWzhFGVgvPZ0jjx-zNbfPqRDKmjTaz8mtlZiXbuXBFfqou1QsexXg7cO-6WccQwGIw4pnzwqOFYWcLA?fife=s16383" height="200" width="auto" /><br><br><br><br><img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3AE5a_Gw8ejQ18RZWnGmpHolsoPvb34AHiQiT-f0_a39Q8qk0DlOgklVOeoVDIiFKTkNlr2S0N9aMx2D-p38vrg-fwyzQyvi5tR5ez774n-pUn9HNY9cz7GKfhZy3SasZ5pqtuXDtGv3nccuQZudgI71rY7xOTsevXZptnX2ymPp_j9pkYHBUrKIJSbFRLM5vaYlTFw_TG1zsVW-U1Q?fife=s16383" height="200" width="auto" />]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://mymaps.usercontent.google.com/hostedimage/m/*/3AE5a_GxQMOxj5pRVGrLfqVHQGOnYrNkbqZ7NzVKJXCrkJviNa6HfMKkyVukFT4tDiOQAO3k5SCUIkdMx95OKyU3xJrJRGyt21uEPmlpUDsawKWfO3zgynPqPr6c6c4Au2xSEWzhFGVgvPZ0jjx-zNbfPqRDKmjTaz8mtlZiXbuXBFfqou1QsexXg7cO-6WccQwGIw4pnzwqOFYWcLA?fife=s16383 https://mymaps.usercontent.google.com/hostedimage/m/*/3AE5a_Gw8ejQ18RZWnGmpHolsoPvb34AHiQiT-f0_a39Q8qk0DlOgklVOeoVDIiFKTkNlr2S0N9aMx2D-p38vrg-fwyzQyvi5tR5ez774n-pUn9HNY9cz7GKfhZy3SasZ5pqtuXDtGv3nccuQZudgI71rY7xOTsevXZptnX2ymPp_j9pkYHBUrKIJSbFRLM5vaYlTFw_TG1zsVW-U1Q?fife=s16383</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -38.7810677,-13.0239329,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Ponte do Funil</name>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3AE5a_GzVPXlNrMmLd8Gx_ctoRdAnC-1qnZGo4xBqzggfyjeQyFWSfTpplpYn0oz-afk5Kz44I18bmAPgVgC4JZS2elsuHPRHNzQ17N-A1uy_HqdwNt_RJ-ZlMiSB-imitPVeMifYO_uJH5HkrnkIf5h6KN0UiOEWXLNwesCo0uVVqWo-XG3EbnM_JrnQXc042-GwKJhUYrhi_I6YCQ?fife=s16383" height="200" width="auto" /><br><br><br><br><img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3AE5a_GwwtwPeY1bQyTg8_2RTo0SsPiHb8Vp8KvK1CElicFagnzI1TrVWehmBpcRzdFUz2k7E5r6JoErZTfdCQyHgdDql0KRCg7hFhhZTEfoUo1QAhH9VxFyLR-TMIJ415LybLDOoVztITyL2QCxTl2APPKJsT3hn6uEDsZ8PGcjBHXTKdzBcSYG3AN7LyXQht4Khw7TVFr7a1elk6g?fife=s16383" height="200" width="auto" />]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://mymaps.usercontent.google.com/hostedimage/m/*/3AE5a_GzVPXlNrMmLd8Gx_ctoRdAnC-1qnZGo4xBqzggfyjeQyFWSfTpplpYn0oz-afk5Kz44I18bmAPgVgC4JZS2elsuHPRHNzQ17N-A1uy_HqdwNt_RJ-ZlMiSB-imitPVeMifYO_uJH5HkrnkIf5h6KN0UiOEWXLNwesCo0uVVqWo-XG3EbnM_JrnQXc042-GwKJhUYrhi_I6YCQ?fife=s16383 https://mymaps.usercontent.google.com/hostedimage/m/*/3AE5a_GwwtwPeY1bQyTg8_2RTo0SsPiHb8Vp8KvK1CElicFagnzI1TrVWehmBpcRzdFUz2k7E5r6JoErZTfdCQyHgdDql0KRCg7hFhhZTEfoUo1QAhH9VxFyLR-TMIJ415LybLDOoVztITyL2QCxTl2APPKJsT3hn6uEDsZ8PGcjBHXTKdzBcSYG3AN7LyXQht4Khw7TVFr7a1elk6g?fife=s16383</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -38.7905439,-13.0468186,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Marina De Cacha Pregos</name>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3AE5a_GwQQvhPZx3ZpwH2sdADh8S3xxWgWN2exhOxQtXcfxa-NGpIbbWtF8p9YlBgGS60nMG7pojXzOdEMN8ub1HOfr5BKifTdFb7wl2aG1ztvmO3k5xl6yrgEH57Xh1nJsSN0YuNMB0poFPf3WSCJqbJ5qLMTu2r_GOnAKc87cyRVbskwh5Y3BFYowDkaUkP-SSu1VZWIdvigYoB7A?fife=s16383" height="200" width="auto" /><br><br>]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://mymaps.usercontent.google.com/hostedimage/m/*/3AE5a_GwQQvhPZx3ZpwH2sdADh8S3xxWgWN2exhOxQtXcfxa-NGpIbbWtF8p9YlBgGS60nMG7pojXzOdEMN8ub1HOfr5BKifTdFb7wl2aG1ztvmO3k5xl6yrgEH57Xh1nJsSN0YuNMB0poFPf3WSCJqbJ5qLMTu2r_GOnAKc87cyRVbskwh5Y3BFYowDkaUkP-SSu1VZWIdvigYoB7A?fife=s16383</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -38.7957196,-13.1195795,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pousada Norage</name>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3AE5a_Gws75k_Qhme7TiJ3Gj78EJmu5HYU2-47oVujKBrV853wK4QrYHOmAq7QBpqpIqFthN5r9386tV-RlBmHElKwUPCJfY49-DQjnvFSXyd7Fzw7EZFgus2VshlLX_m3WMlcsJnQN2g-N-9sXi-46L6Oh-Ra0UvEIitaddpbSrouwehdf4ZRHt6g68-b2QZb5XBoMFsgatkDDLcyA?fife=s16383" height="200" width="auto" /><br><br>]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://mymaps.usercontent.google.com/hostedimage/m/*/3AE5a_Gws75k_Qhme7TiJ3Gj78EJmu5HYU2-47oVujKBrV853wK4QrYHOmAq7QBpqpIqFthN5r9386tV-RlBmHElKwUPCJfY49-DQjnvFSXyd7Fzw7EZFgus2VshlLX_m3WMlcsJnQN2g-N-9sXi-46L6Oh-Ra0UvEIitaddpbSrouwehdf4ZRHt6g68-b2QZb5XBoMFsgatkDDLcyA?fife=s16383</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -38.7936646,-13.1241243,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Line 6</name>
+        <styleUrl>#line-000000-1200-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -38.6942543,-12.8880017,0
+            -38.7004341,-12.9047348,0
+            -38.6935676,-12.9174512,0
+            -38.6853279,-12.9315055,0
+            -38.6949409,-12.9361901,0
+            -38.6956276,-12.9455589,0
+            -38.6921943,-12.9542583,0
+            -38.7004341,-12.9602808,0
+            -38.7114204,-12.9663031,0
+            -38.7176002,-12.9790164,0
+            -38.72378,-12.9903908,0
+            -38.7368263,-13.0010958,0
+            -38.7443794,-13.0144763,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>

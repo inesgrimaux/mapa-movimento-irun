@@ -1,0 +1,25 @@
+{
+  "version": "1.0.0",
+  "entidades": [
+    "lagoa-grande",
+    "tenonde",
+    "caxute",
+    "museu-dende",
+    "engenho-ponte",
+    "saubara",
+    "itaparica",
+    "vera-cruz",
+    "terere"
+  ],
+  "pontos": ["ti-03", "ti-05", "ti-06", "ti-19", "ti-21", "ti-26"],
+  "roteiros": [
+    {
+      "id": "contra-costa",
+      "titulo": "Contra Costa — Ilha de Itaparica",
+      "file": "geo/roteiros/contra-costa.geojson",
+      "territorioIds": ["ti-26"],
+      "entidadeIds": ["itaparica", "vera-cruz"],
+      "descricao": "Saída da Marina de Itaparica · Fonte do Tororó · Cacha Pregos · Praia de Mangabeira. Roteiro intermunicipal (Itaparica e Vera Cruz)."
+    }
+  ]
+}

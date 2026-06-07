@@ -1,0 +1,239 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "nome": "ESCOLA MUNICIPAL QUILOMBOLA LUIZ PEREIRA DOS SANTOS",
+        "tipo": "pin",
+        "entidadeId": "lagoa-grande"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -38.9894126,
+          -12.1367045
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nome": "Ponto de Cultura - Movimento Juventude",
+        "tipo": "pin",
+        "entidadeId": "lagoa-grande"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -38.9898594,
+          -12.1366125
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nome": "Casa de Farinha Comunitaria",
+        "tipo": "pin",
+        "entidadeId": "lagoa-grande"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -38.9885283,
+          -12.1368032
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nome": "Lagoa Grande",
+        "tipo": "pin",
+        "entidadeId": "lagoa-grande"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -38.9974336,
+          -12.134794
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nome": "Polígono 12",
+        "tipo": "poligono",
+        "entidadeId": "lagoa-grande"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -38.9979271,
+              -12.1355912
+            ],
+            [
+              -38.997337,
+              -12.1363569
+            ],
+            [
+              -38.9965323,
+              -12.1373429
+            ],
+            [
+              -38.9957706,
+              -12.1385911
+            ],
+            [
+              -38.9952985,
+              -12.1397134
+            ],
+            [
+              -38.9944188,
+              -12.140993
+            ],
+            [
+              -38.9937241,
+              -12.1421389
+            ],
+            [
+              -38.9925721,
+              -12.1431524
+            ],
+            [
+              -38.9911626,
+              -12.1436624
+            ],
+            [
+              -38.9922059,
+              -12.141347
+            ],
+            [
+              -38.9934639,
+              -12.1394721
+            ],
+            [
+              -38.9941184,
+              -12.1383708
+            ],
+            [
+              -38.9945904,
+              -12.1375422
+            ],
+            [
+              -38.9951269,
+              -12.1370912
+            ],
+            [
+              -38.9956204,
+              -12.1359898
+            ],
+            [
+              -38.9958993,
+              -12.1351245
+            ],
+            [
+              -38.996071,
+              -12.1347783
+            ],
+            [
+              -38.9964143,
+              -12.1340755
+            ],
+            [
+              -38.9982919,
+              -12.1329217
+            ],
+            [
+              -38.9988283,
+              -12.1345161
+            ],
+            [
+              -38.9979271,
+              -12.1355912
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nome": "Estrada da Lagoa - R.Real",
+        "tipo": "pin",
+        "entidadeId": "lagoa-grande"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -38.9951096,
+          -12.1364723
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nome": "Quintal Produtivo",
+        "tipo": "pin",
+        "entidadeId": "lagoa-grande"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -38.9911207,
+          -12.1338256
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nome": "Casa de Farinha e  Quintal Produtivo",
+        "tipo": "pin",
+        "entidadeId": "lagoa-grande"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -38.9916659,
+          -12.1286818
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nome": "Casa de Farinha e Quintal Produtivo",
+        "tipo": "pin",
+        "entidadeId": "lagoa-grande"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -38.9904151,
+          -12.1285879
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nome": "AQCOMAQ - Associação Quilombola Comunitária de Maria Quitéria - Comunidade Quilombola de Lagoa Grande",
+        "tipo": "pin",
+        "entidadeId": "lagoa-grande"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -38.9898146,
+          -12.1368249
+        ]
+      }
+    }
+  ]
+}

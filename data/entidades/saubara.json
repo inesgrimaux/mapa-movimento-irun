@@ -1,0 +1,111 @@
+{
+  "id": "saubara",
+  "version": "1.0.0",
+  "territorioId": "ti-21",
+  "tipo": "municipio",
+  "rede": true,
+  "meta": {
+    "nome": "Saubara",
+    "coords": [-12.7411, -38.7672],
+    "municipio": "Saubara",
+    "uf": "BA",
+    "fonte": "Movimento Irun — cartografia REDE",
+    "responsavel": "Rede Movimento Irun",
+    "licenca": "CC BY-NC-SA 4.0",
+    "updatedAt": "2026-06-06"
+  },
+  "sidebar": {
+    "apresentacao": "Saubara integra o Território de Identidade Recôncavo (ti-21), na margem da Baía de Todos os Santos, em articulação histórica e cultural com Cachoeira e demais municípios do recôncavo baiano. Referência nacional da Marujada e das tradições dos marujos, o município concentra saberes de renda de bilro, trançado de palha de Ouricuri e memória afro-indígena — empreendidos por mulheres negras desde 1999.",
+    "identidade": [
+      {
+        "id": "historia",
+        "titulo": "História e memória",
+        "conteudo": "Território de forte enraizamento no Recôncavo, entre baía, manguezais e comunidades tradicionais. Saubara articula-se com Cachoeira e o conjunto de municípios do ti-21 como eixo de memória, festividade popular e economia criativa."
+      },
+      {
+        "id": "cultura",
+        "titulo": "Marujos e Marujada",
+        "conteudo": "Saubara é referência da Marujada — celebração dos marujos, devotos ligados a São Pedro e tradições marítimas. Cortejo, música, dança e devoção popular marcam a identidade cultural do município."
+      },
+      {
+        "id": "rendeiras",
+        "titulo": "Associação das Rendeiras de Saubara",
+        "conteudo": "Articulação das rendeiras locais em torno da Festa das Rendeiras e da valorização do trabalho manual e da renda como património vivo do Recôncavo. Acompanhe @rendeirassaubara."
+      },
+      {
+        "id": "artesanato",
+        "titulo": "Casa das Rendeiras e Trançadeiras",
+        "conteudo": "A Associação dos Artesãos de Saubara — também conhecida como Casa das Rendeiras e Trançadeiras — é Ponto de Cultura (Selo IG/NPI · Top100). Desde 1999 empreende com mulheres negras as tradições da renda de bilro e do trançado de palha de Ouricuri."
+      },
+      {
+        "id": "rede",
+        "titulo": "Recôncavo e REDE",
+        "conteudo": "No Recôncavo, Saubara dialoga com Cachoeira, Santiago do Iguape (Quilombo Engenho da Ponte) e outros territórios da REDE Movimento Irun."
+      }
+    ],
+    "produtos": [
+      {
+        "nome": "Toalha de chá quadrada — tecido e renda de bilro",
+        "descricao": "Destaque Casa das Rendeiras"
+      },
+      {
+        "nome": "Toalha de mesa redonda — tecido e renda de bilro",
+        "descricao": "Para mesa de 4 cadeiras"
+      },
+      {
+        "nome": "Xale em renda de bilro",
+        "descricao": "Peça de referência da renda local"
+      },
+      {
+        "nome": "Toalha de lavabo — tecido e renda de bilro",
+        "descricao": "Artesanato tradicional de Saubara"
+      },
+      {
+        "nome": "Bolsas e trançados de palha de Ouricuri",
+        "descricao": "Linha complementar da Casa das Trançadeiras"
+      }
+    ],
+    "externo": {
+      "site": "https://casadasrendeiras.org.br/loja/",
+      "produtos": "https://casadasrendeiras.org.br/loja/page/5/"
+    },
+    "festas": [
+      {
+        "nome": "Marujada",
+        "periodo": "Tradicional — junho (São Pedro)",
+        "descricao": "Principal manifestação dos marujos em Saubara — cortejo, devoção e festividade popular na baía."
+      },
+      {
+        "nome": "Festa das Rendeiras",
+        "periodo": "Anual",
+        "descricao": "Celebração promovida pela Associação das Rendeiras de Saubara."
+      }
+    ],
+    "fotos": [],
+    "videos": [],
+    "redes": [
+      {
+        "rede": "Instagram",
+        "handle": "@rendeirassaubara",
+        "href": "https://www.instagram.com/rendeirassaubara/"
+      },
+      {
+        "rede": "Loja virtual",
+        "handle": "casadasrendeiras.org.br",
+        "href": "https://casadasrendeiras.org.br/loja/"
+      }
+    ],
+    "links": [
+      {
+        "titulo": "Rendas de bilro — destaques da loja",
+        "href": "https://casadasrendeiras.org.br/loja/page/5/"
+      }
+    ],
+    "contato": {
+      "organizacao": "Associação dos Artesãos de Saubara — Casa das Rendeiras e Trançadeiras",
+      "endereco": "Rua Francino Borges dos Reis, Centro, Saubara — BA, 44220-000",
+      "maps": "https://www.google.com/maps/search/?api=1&query=Rua+Francino+Borges+dos+Reis,+Centro,+Saubara,+BA,+44220-000",
+      "whatsapp": "https://wa.me/qr/ZRDWCKHLTGDWP1"
+    }
+  }
+}

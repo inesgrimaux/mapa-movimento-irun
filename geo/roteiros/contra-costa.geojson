@@ -1,0 +1,155 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "contra-costa",
+        "tipo": "roteiro-linha",
+        "nome": "Contra Costa — Ilha de Itaparica"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -38.6942543,
+            -12.8880017
+          ],
+          [
+            -38.7004341,
+            -12.9047348
+          ],
+          [
+            -38.6935676,
+            -12.9174512
+          ],
+          [
+            -38.6853279,
+            -12.9315055
+          ],
+          [
+            -38.6949409,
+            -12.9361901
+          ],
+          [
+            -38.6956276,
+            -12.9455589
+          ],
+          [
+            -38.6921943,
+            -12.9542583
+          ],
+          [
+            -38.7004341,
+            -12.9602808
+          ],
+          [
+            -38.7114204,
+            -12.9663031
+          ],
+          [
+            -38.7176002,
+            -12.9790164
+          ],
+          [
+            -38.72378,
+            -12.9903908
+          ],
+          [
+            -38.7368263,
+            -13.0010958
+          ],
+          [
+            -38.7443794,
+            -13.0144763
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "marina-itaparica",
+        "tipo": "roteiro-parada",
+        "nome": "Marina Itaparíca",
+        "ordem": 1,
+        "roteiroId": "contra-costa"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -38.683562,
+          -12.8885715
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "fonte-do-tororo-ilha-de-matarandiba",
+        "tipo": "roteiro-parada",
+        "nome": "Fonte do Tororó - Ilha de Matarandiba",
+        "ordem": 2,
+        "roteiroId": "contra-costa"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -38.7810677,
+          -13.0239329
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "ponte-do-funil",
+        "tipo": "roteiro-parada",
+        "nome": "Ponte do Funil",
+        "ordem": 3,
+        "roteiroId": "contra-costa"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -38.7905439,
+          -13.0468186
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "marina-de-cacha-pregos",
+        "tipo": "roteiro-parada",
+        "nome": "Marina De Cacha Pregos",
+        "ordem": 4,
+        "roteiroId": "contra-costa"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -38.7957196,
+          -13.1195795
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "pousada-norage",
+        "tipo": "roteiro-parada",
+        "nome": "Pousada Norage",
+        "ordem": 5,
+        "roteiroId": "contra-costa"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -38.7936646,
+          -13.1241243
+        ]
+      }
+    }
+  ]
+}

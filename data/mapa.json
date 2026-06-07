@@ -1,0 +1,19 @@
+{
+  "version": "1.0.0",
+  "title": "MOVIMENTO IRUN",
+  "subtitle": "IDENTIDADE E TERRITÓRIO",
+  "sobreTitulo": "Sobre o Mapa",
+  "sobre": [
+    "Este documento foi construído junto às comunidades mapeadas como resultado do PROGRAMA BEM VIVER do Projeto MOVIMENTO IRUN, dentro da demarcação dos 27 Territórios de Identidade, observando critérios ambientais, econômicos e culturais, os quais indicam identidade, coesão social, cultural e territorial. A SecultBA assumiu a Política de Territorialização da Cultura, em todas as suas instâncias, em atenção à diversidade de manifestações culturais dos Territórios de Identidade.",
+    "A constituição dos Territórios de Identidade (TI) aconteceu a partir de 2007. A SecultBA utilizou-se de conceito da SEI – Superintendência de Estudos Econômicos, para o MDA – Ministério do Desenvolvimento Agrário, lastreados pelo conceito de Território, muito adequado à lógica cultural.",
+    "O projeto Movimento Irun foi contemplado nos editais da Política Nacional Aldir Blanc Bahia e tem apoio financeiro do Governo do Estado da Bahia, por meio da Secretaria de Cultura do Estado da Bahia via PNAB, direcionada pelo Ministério da Cultura - Governo Federal. A iniciativa é também contemplada pela Política Nacional Cultura Viva."
+  ],
+  "description": "Mapa territorial interactivo da Bahia. Divisão oficial em 27 Territórios de Identidade e mapeamento participativo da REDE Movimento Irun.",
+  "source": {
+    "geographic": "SEI/SEPLAN — REG_TI_A_100K_2022_GCS_SIR_SEPLAN",
+    "social": "Cartografia Social — Design de Território · Programa Bem Viver · Movimento Irun"
+  },
+  "footer": "DESIGN DE TERRITÓRIO · GRIMAUX · MOVIMENTO IRUN",
+  "redeMeta": 27,
+  "embedBase": "https://casadecastroalves.com.br/territorios"
+}

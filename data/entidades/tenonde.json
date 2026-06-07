@@ -1,0 +1,112 @@
+{
+  "id": "tenonde",
+  "version": "1.0.0",
+  "territorioId": "ti-06",
+  "tipo": "quilombo",
+  "rede": true,
+  "meta": {
+    "nome": "Kilombo Tenondé",
+    "coords": [-13.3694, -39.0731],
+    "municipio": "Valença",
+    "uf": "BA",
+    "fonte": "Kilombo Tenondé — Movimento Irun / Design de Território",
+    "responsavel": "Associação Eco Educativa e Cultural Kilombo Tenondé",
+    "licenca": "CC BY-NC-SA 4.0",
+    "updatedAt": "2025-06-06"
+  },
+  "sidebar": {
+    "apresentacao": "O Kilombo Tenondé é um aquilombamento contemporâneo fundado por Mestre Cobra Mansa em 1991, hoje na zona rural de Valença (BA). Reconhecido como Ponto de Cultura (2024), integra capoeira angola, agroecologia, construção ancestral, educação ambiental e turismo de base comunitária na Mata Atlântica do Baixo Sul.",
+    "identidade": [
+      {
+        "id": "historia",
+        "titulo": "História e memória",
+        "conteudo": "Fundado em 1991 no bairro de Coutos (Salvador), o Kilombo desenvolveu capoeira angola, agroecologia, hip-hop e construção ancestral até 2006, quando a sede migrou para Valença. Eventos como Permangola e CosmoAngola (2022) ampliam o diálogo contracolonial entre Mestre Cobra Mansa e lideranças quilombolas como Nêgo Bispo."
+      },
+      {
+        "id": "cultura",
+        "titulo": "Cultura",
+        "conteudo": "Capoeira Angola, dança ancestral, tambor, cinema, artesanato, culinária Bantu-indígena e composição musical são eixos culturais. O CosmoAngola (2025) articula debate contracolonial, ancestralidade afro-indígena e formação comunitária."
+      },
+      {
+        "id": "meio-ambiente",
+        "titulo": "Meio ambiente",
+        "conteudo": "Recuperação da Mata Atlântica, agrofloresta, meliponicultura, banco de sementes, viveiros, piscicultura, plantas medicinais e banheiro seco compõem a ecopedagogia do território. Premiado com Permaculture Magazine Award (2020), Aldir Blanc (2021) e Paulo Gustavo (2024)."
+      },
+      {
+        "id": "patrimonio",
+        "titulo": "Património",
+        "conteudo": "Construção ancestral em taipa, madeira, bambu e materiais reciclados; centro de documentação histórica; e tradições afro-indígenas preservadas como património imaterial vivo."
+      },
+      {
+        "id": "economia",
+        "titulo": "Economia",
+        "conteudo": "Produções agroecológicas (cacau, café, cupuaçu, banana, açaí, plantas medicinais), economia solidária, ecoturismo e comercialização de alimentos ancestrais do Baixo Sul."
+      },
+      {
+        "id": "comunidade",
+        "titulo": "Comunidade",
+        "conteudo": "Associação eco educativa que acolhe crianças, jovens, adultos e idosos — com atenção a públicos em vulnerabilidade social — em vivências abertas à comunidade e voluntários."
+      },
+      {
+        "id": "educacao",
+        "titulo": "Educação",
+        "conteudo": "Cursos de Design de Permacultura (PDC), agrofloresta, meliponicultura, construção sustentável, espagíria, oficinas e eventos formativos. Ponto de Cultura desde 2024."
+      },
+      {
+        "id": "mobilidade",
+        "titulo": "Mobilidade",
+        "conteudo": "Localizado na zona rural de Valença, na bacia do Rio Piau, integrando o Território de Identidade Baixo Sul (TI 06)."
+      },
+      {
+        "id": "potencialidades",
+        "titulo": "Potencialidades",
+        "conteudo": "Ecoturismo, turismo rural comunitário, intercâmbios nacionais e internacionais, formação em permacultura e referência em justiça ambiental e soberania alimentar."
+      },
+      {
+        "id": "futuro",
+        "titulo": "Visão de futuro",
+        "conteudo": "Ampliar CosmoAngola, fortalecer regeneração da terra e água, combater fome e desigualdade, e consolidar o Kilombo como território de resistência, formação e autonomia afro-indígena."
+      }
+    ],
+    "produtos": [
+      { "nome": "Cacau orgânico", "descricao": "Do cultivo agroflorestal na fazenda em Valença." },
+      { "nome": "Chocolate artesanal", "descricao": "Do grão à barra — bean to bar." },
+      { "nome": "Mel de meliponíneos", "descricao": "Meliponicultura comunitária." },
+      { "nome": "Artesanato e bens de bem-estar", "descricao": "Produtos handcrafted do Kilombo." }
+    ],
+    "externo": {
+      "site": "https://kilombotenonde.net/",
+      "produtos": "https://kilombotenonde.net/products.html",
+      "eventos": "https://kilombotenonde.net/events.html",
+      "reservas": "https://kilombotenonde.net/booking.html",
+      "about": "https://kilombotenonde.net/about.html",
+      "contato": "https://kilombotenonde.net/contact.html"
+    },
+    "roteiros": [
+      { "titulo": "Vivências imersivas", "descricao": "Turismo de base comunitária com capoeira, agrofloresta e recuperação ambiental." },
+      { "titulo": "Permangola / CosmoAngola", "descricao": "Eventos formativos e culturais de referência nacional." }
+    ],
+    "fotos": [],
+    "videos": [],
+    "portfolio": [
+      { "titulo": "Portfólio Kilombo Tenondé 2025", "href": "assets/tenonde/pdf/Portfólio Kilombo Tenondé 2025 ver01.pdf", "tipo": "pdf" },
+      { "titulo": "Portfólio Kilombo Tenondé", "href": "assets/tenonde/pdf/Portfólio Kilombo Tenonde.pdf", "tipo": "pdf" },
+      { "titulo": "Portfólio Mestre Cobra Mansa", "href": "assets/tenonde/pdf/Portfolio Mestre Cobra Mansa (1)_compressed (2).pdf", "tipo": "pdf" }
+    ],
+    "festas": [
+      { "nome": "CosmoAngola", "periodo": "2022–2025", "descricao": "Encruzilhada de debate contracolonial, capoeira angola e formação comunitária." },
+      { "nome": "Permangola", "periodo": "Desde 2006", "descricao": "Encontro de permacultura e agrofloresta na região." }
+    ],
+    "noticias": [],
+    "redes": [
+      { "rede": "Site", "handle": "kilombotenonde.net", "href": "https://kilombotenonde.net/" }
+    ],
+    "links": [],
+    "contato": {
+      "organizacao": "Associação Eco Educativa e Cultural Kilombo Tenondé",
+      "gestores": ["Mestre Cobra Mansa"],
+      "email": "info@kilombotenonde.net",
+      "maps": "https://maps.app.goo.gl/cNztDSPXEuRLvqRj8"
+    }
+  }
+}

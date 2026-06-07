@@ -1,0 +1,49 @@
+{
+  "territorioId": "ti-05",
+  "pontos": [
+    {
+      "id": "serra-grande",
+      "nome": "Serra Grande",
+      "coords": [
+        -14.4648636,
+        -39.0402116
+      ],
+      "categorias": [
+        "municipios"
+      ]
+    },
+    {
+      "id": "museu-aberto-de-serra-grande",
+      "nome": "Museu Aberto de Serra Grande",
+      "coords": [
+        -14.4675073,
+        -39.0348695
+      ],
+      "categorias": [
+        "instituicoes"
+      ]
+    },
+    {
+      "id": "casa-azul-instituto-arapyau",
+      "nome": "Casa Azul | Instituto Arapyaú",
+      "coords": [
+        -14.4683873,
+        -39.0345647
+      ],
+      "categorias": [
+        "projetos"
+      ]
+    },
+    {
+      "id": "revista-ligente",
+      "nome": "Revista LiGente",
+      "coords": [
+        -14.4675914,
+        -39.0346314
+      ],
+      "categorias": [
+        "projetos"
+      ]
+    }
+  ]
+}
