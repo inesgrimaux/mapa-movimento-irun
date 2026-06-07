@@ -5,8 +5,7 @@ const STORAGE_KEY = "irun-theme";
 
 export function initTheme() {
   const saved = localStorage.getItem(STORAGE_KEY);
-  const prefersDark = window.matchMedia("(prefers-color-scheme: dark)").matches;
-  setTheme(saved || (prefersDark ? "dark" : "light"), false);
+  setTheme(saved || "light", false);
   updateThemeButton();
 
   document.getElementById("btn-theme")?.addEventListener("click", () => {
