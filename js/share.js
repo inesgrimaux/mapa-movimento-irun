@@ -5,7 +5,17 @@ function basePath() {
   const local = `${window.location.origin}${window.location.pathname.replace(/\/$/, "") || ""}`;
   const isLocal = /^(localhost|127\.0\.0\.1)$/.test(window.location.hostname);
   if (isLocal) return local;
+
   const canonical = state.mapa?.embedBase?.replace(/\/$/, "");
+  if (canonical) {
+    try {
+      const host = new URL(canonical).hostname;
+      if (window.location.hostname === host) return local;
+    } catch {
+      /* ignore */
+    }
+  }
+
   return canonical || local;
 }
 

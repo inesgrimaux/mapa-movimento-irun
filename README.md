@@ -26,7 +26,10 @@ Abrir: http://localhost:8080
 
 ## Hospedagem
 
-Upload para `casadecastroalves.com.br/territorios/`
+- **GitHub Pages (activo):** https://inesgrimaux.github.io/mapa-movimento-irun/
+- **Produção (alvo):** upload da pasta para `casadecastroalves.com.br/territorios/`
+
+Repositório: https://github.com/inesgrimaux/mapa-movimento-irun
 
 ## Nota — pasta antiga
 
